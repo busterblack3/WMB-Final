@@ -1,0 +1,407 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202408 will be lost/reset.
+# Last config file used to build this data file was /home/k2r1om8prsxd/tmp/awstats/ssl/awstats.eastfifthcap.woodsmillbend.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2035                
+POS_TIME 2697                
+POS_VISITOR 9550                
+POS_DAY 10716               
+POS_DOMAIN 3312                
+POS_LOGIN 3648                
+POS_ROBOT 3803                
+POS_WORMS 4158                
+POS_EMAILSENDER 4289                
+POS_EMAILRECEIVER 4432                
+POS_SESSION 11095               
+POS_SIDER 11252               
+POS_FILETYPES 4567                
+POS_DOWNLOADS 4771                
+POS_OS 4819                
+POS_BROWSER 5213                
+POS_SCREENSIZE 6414                
+POS_UNKNOWNREFERER 6488                
+POS_UNKNOWNREFERERBROWSER 7077                
+POS_ORIGIN 7474                
+POS_SEREFERRALS 7609                
+POS_PAGEREFS 7753                
+POS_SEARCHWORDS 8254                
+POS_KEYWORDS 8406                
+POS_MISC 2360                
+POS_ERRORS 8465                
+POS_CLUSTER 3504                
+POS_SIDER_404 8573                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240901012357 7 866 11164883368835
+FirstTime 0
+LastTime 20240827214045
+LastUpdate 20240901055243 7 0 6 0 0
+TotalVisits 26                  
+TotalUnique 26                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 28                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 11 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 10 19 0
+1 1 24 249291 11 14 12382
+2 0 0 0 7 11 156
+3 0 0 0 6 8 52
+4 0 0 0 6 6 0
+5 1 1 12294 11 15 208
+6 2 2 24588 13 15 37426
+7 1 1 12294 7 8 12292
+8 3 5 61472 10 20 49735
+9 0 0 0 7 8 70
+10 0 0 0 2 5 0
+11 1 1 12293 9 12 0
+12 2 2 24588 3 4 12292
+13 1 1 12294 1 3 12292
+14 1 1 12293 4 6 0
+15 3 3 61828 3 5 12292
+16 1 26 262429 4 9 24929
+17 2 2 24588 5 8 0
+18 1 1 12293 4 5 0
+19 57 87 927750 20 22 364
+20 0 0 0 10 17 61977
+21 1 1 37235 3 4 52
+22 1 1 12294 4 4 0
+23 2 2 74470 12 22 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 69 124 1375293
+ca 4 6 123648
+cn 2 2 24588
+ua 1 1 12294
+gr 1 1 12294
+au 1 1 12293
+be 1 1 12294
+in 1 1 12299
+bg 1 24 249291
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+no_user_agent 2 74470 20240824085255 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 12297 20240821163412 0
+scanner 1 12294 20240817201527 0
+survey 1 37235 20240808061904 0
+msnbot/ 1 12295 20240818015235 0
+link 1 12295 20240821163313 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+Unknown 1 12299 0 0
+png 18 14382 0 0
+html 68 944516 0 0
+svg 6 10596 0 0
+woff 9 202776 0 0
+css 6 101124 0 0
+js 50 511722 0 0
+php 3 36879 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 25
+win8 2 0
+android 7 1
+macosx13 3 0
+winxp 1 1
+win7 7 3
+androidhoneycomb 1 0
+beos 1 1
+macosx14 1 0
+macosx15 4 1
+androidkitkat 1 0
+androidlollipop 1 0
+sunos 1 0
+macosx6 1 0
+os/2 1 0
+winlong 1 0
+androidnougat 1 0
+symbian 1 0
+win10 42 16
+androidpie 2 0
+winphone 1 0
+linux 68 50
+linuxubuntu 1 0
+ios_iphone 2 0
+macosx10 1 0
+Unknown 9 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 57
+chrome117.0.0.0 1 1
+firefox95.0 3 3
+chrome41.0.2272.105 1 0
+opera11.00 1 0
+chrome76.0.3809.100 1 0
+chrome67.0.3396.87 3 0
+mozilla 6 6
+chrome76.0.3809.89 1 0
+chrome97.0.4692.99 1 0
+chrome76.0.3809.111 1 0
+safari 1 0
+chrome103.0.5060.114 3 1
+chrome101.0.4951.54 2 0
+chrome30.0.1599.103 1 0
+chrome91.0.4472.114 1 0
+nokia 1 0
+chrome6.0.464.0 1 0
+msie9.0 1 0
+android 2 0
+firefox55.0 1 0
+chrome92.0.4515.159 14 4
+chrome91.0.4472.101 1 0
+safari15.2 1 0
+chrome61.0.3163.91 1 1
+chrome99.0.4844.83 1 0
+chrome73.0.3683.103 1 0
+chrome70.0.3538.102 1 0
+opera60.0.3255.70 1 1
+chrome74.0.3729.157 1 0
+chrome83.0.4103.61 1 1
+chrome14.0.825.0 1 0
+chrome75.0.3770.80 1 0
+chrome100.0.4896.60 2 2
+seamonkey 1 1
+chrome117.0.5938.132 14 4
+chrome79.0.3945.130 1 1
+chrome20.0.1090.0 1 0
+chrome102.0.4972.0 1 0
+chrome74.0.3729.108 1 0
+opera10.00 1 0
+minefield 1 0
+epiphany 1 0
+netscape4.8 1 0
+safari9.0 1 0
+firefox45.0 1 0
+chrome116.0.0.0 43 43
+chrome101.0.4951.61 3 0
+chrome89.0.4389.114 1 0
+chrome79.0.3945.79 14 4
+chrome70.0.3538.110 1 0
+Unknown 3 2
+opera62.0.3331.109 1 0
+chrome7.0.514.0 1 1
+chrome126.0.0.0 4 4
+chrome101.0.4951.41 1 0
+msie11.0 3 1
+chrome16.0.912.36 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20240827214045
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20240804152154
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20240826125327
+EmailWolf_1.00 20240818015341
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20240827214045
+EmailWolf_1.00 20240818015341
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 68 118
+From1 0 0
+From2 0 0
+From3 13 43
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+https://cpanel.eastfifthcap.com/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/open_sans.min.css 9 9
+http://cpanel.eastfifthcap.com/wp-login.php 3 3
+http://cpanel.eastfifthcap.com 1 1
+https://cpanel.eastfifthcap.com 0 9
+https://cpanel.eastfifthcap.com/cPanel_magic_revision_1705007155/unprotected/cpanel/style_v2_optimized.css 0 21
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 169 0
+401 27 1336
+308 3 285
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 20
+/robots.txt 18 -
+/wp-includes/js/quicktags.js 1 -
+/wp-login.php 1 http://www.google.com.hk
+/wp-includes/widgets/include.php 1 www.google.com
+/wp-content/plugins/WordPressCore/include.php 1 www.google.com
+/wp-content/plugins/wp-catcher/index.php 3 www.google.com
+/static/admin/javascript/hetong.js 2 -
+/wp-admin/install.php 1 -
+/ 126 -
+/.git/config 3 -
+/Public/home/js/check.js 3 -
+/.idea/workspace.xml 1 -
+/.well-known/security.txt 1 -
+/feed/ 1 -
+/wp-content/plugins/wp-theme-editor/include.php 1 www.google.com
+/wp-json/wp/v2/users 1 -
+/security.txt 1 -
+/.svn/wc.db 1 -
+/wp-content/themes/seotheme/db.php 1 www.google.com
+/contact 1 https://eastfifthcap.com/contact
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 28
+154.28.229.250 44 44 549696 20240817194604
+205.169.39.156 5 15 134214 20240817194706
+205.169.39.38 4 14 121920 20240817195006
+34.122.147.229 4 14 121920 20240817194649
+124.236.100.56 2 2 24588 20240801175858
+35.171.144.152 2 2 74470 20240821230050
+162.142.125.195 1 1 12294 20240804152154
+199.45.154.144 1 1 12294 20240802080817
+104.248.203.191 1 1 12294 20240816123851
+47.254.74.59 1 1 12294 20240818083858
+142.93.144.11 1 1 12294 20240811053513
+178.128.173.125 1 1 12294 20240819062646
+45.148.10.59 1 1 12299 20240807153856
+198.235.24.80 1 1 37235 20240823151425
+134.122.104.22 1 1 12294 20240824223543
+54.38.94.205 1 1 12293 20240802140631
+148.72.207.110 1 1 12293 20240816184026
+198.235.24.144 1 1 37235 20240827214045
+137.184.157.38 1 1 12294 20240821065032
+94.156.66.249 1 24 249291 20240818015215
+199.45.154.119 1 1 12294 20240802071359
+34.204.203.172 1 26 262429 20240821163253
+87.236.176.12 1 1 12294 20240826125327
+162.142.125.214 1 1 12294 20240804131701
+139.59.20.111 1 1 12293 20240825115748
+47.251.14.232 0 1 12293 
+47.251.15.21 0 1 12297 
+95.217.18.177 1 1 12294 20240819082900
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20240801 2 2 24588 1
+20240802 3 3 36881 3
+20240804 2 2 24588 2
+20240807 1 1 12299 1
+20240811 1 1 12294 1
+20240816 2 2 24587 2
+20240817 57 87 927750 4
+20240818 2 27 286175 2
+20240819 2 2 24588 2
+20240821 4 29 349193 3
+20240823 1 1 37235 1
+20240824 1 1 12294 1
+20240825 1 1 12293 1
+20240826 1 1 12294 1
+20240827 1 1 37235 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 25
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 68 944516 22 19
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.woff 3 66885 0 2
+/wp-login.php 3 36879 3 3
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.woff 3 68328 0 1
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.woff 3 67563 0 0
+/.git/config 1 12299 1 1
+END_SIDER

@@ -1,0 +1,355 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202407 will be lost/reset.
+# Last config file used to build this data file was /home/k2r1om8prsxd/tmp/awstats/ssl/awstats.eastfifthcap.woodsmillbend.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2035                
+POS_TIME 2696                
+POS_VISITOR 8550                
+POS_DAY 9294                
+POS_DOMAIN 3315                
+POS_LOGIN 3634                
+POS_ROBOT 3789                
+POS_WORMS 4099                
+POS_EMAILSENDER 4230                
+POS_EMAILRECEIVER 4373                
+POS_SESSION 9606                
+POS_SIDER 9773                
+POS_FILETYPES 4508                
+POS_DOWNLOADS 4624                
+POS_OS 4672                
+POS_BROWSER 4919                
+POS_SCREENSIZE 5465                
+POS_UNKNOWNREFERER 5539                
+POS_UNKNOWNREFERERBROWSER 6098                
+POS_ORIGIN 6465                
+POS_SEREFERRALS 6597                
+POS_PAGEREFS 6741                
+POS_SEARCHWORDS 6972                
+POS_KEYWORDS 7124                
+POS_MISC 2360                
+POS_ERRORS 7183                
+POS_CLUSTER 3490                
+POS_SIDER_404 7290                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240801011342 6 1054 9339526101727
+FirstTime 0
+LastTime 20240730030648
+LastUpdate 20240801054856 6 0 5 0 0
+TotalVisits 17                  
+TotalUnique 17                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 17                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 4 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 10 10 0
+1 1 1 36901 34 34 326979
+2 0 0 0 6 9 87
+3 3 3 61050 35 36 0
+4 0 0 0 32 34 52
+5 1 1 12075 7 12 49029
+6 0 1 36919 4 6 0
+7 4 6 171822 4 5 49068
+8 0 0 0 6 8 0
+9 0 0 0 6 6 36901
+10 2 2 48973 7 10 191
+11 0 0 0 28 29 1300
+12 1 1 12064 10 15 48988
+13 0 1 36919 11 13 87
+14 0 0 0 10 12 12221
+15 1 1 36901 10 14 36953
+16 0 0 0 8 13 12076
+17 0 0 0 7 9 36901
+18 3 19 195714 32 34 12324
+19 1 1 36901 9 13 174
+20 1 1 12073 5 6 0
+21 0 0 0 9 10 35
+22 1 1 12067 4 5 12187
+23 0 0 0 22 23 37127
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+ca 4 4 147604
+us 4 4 48289
+cn 3 3 61037
+in 2 18 183637
+dk 2 6 221518
+be 2 2 24140
+ru 1 1 12081
+nl 1 1 12073
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+Go\-http\-client/ 26 314166 20240723142108 0
+no_user_agent 6 221406 20240727155954 0
+survey 2 73802 20240704073402 0
+Wget/ 1 12069 20240721182505 0
+unknown 1 52 20240729103747 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 15 305209 0 0
+php 4 98000 0 0
+js 20 307170 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+macosx15 2 2
+ios_ipad 1 0
+linuxubuntu 6 2
+androidnougat 2 0
+linux 3 2
+macosx13 1 0
+win10 4 1
+win7 4 3
+symbian 1 0
+androidoreo 1 0
+androidpie 3 0
+win8.1 2 1
+macosx12 1 0
+Unknown 8 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 25
+chrome75.0.3770.143 1 0
+chrome75.0.3770.142 1 0
+opera48.1.2331.132804 1 0
+safari9.0 1 0
+msie11.0 1 1
+chrome71.0.2623.112 1 1
+chrome64.0.3282.186 1 0
+chrome74.0.3729.108 1 0
+chrome37.0.2049.0 1 1
+iceape 1 0
+opera64.0.3409.0 1 0
+chrome75.0.3770.100 1 0
+chrome67.0.3396.79 1 0
+firefox115.0 6 2
+chrome76.0.3809.89 1 0
+firefox95.0 2 2
+chrome76.0.3809.111 2 0
+nokia 1 0
+mozilla 4 4
+chrome63.0.3239.132 1 1
+Unknown 4 4
+chrome93.0.4577.82 1 1
+firefox36.0 1 0
+chrome53.0.2785.124 1 0
+chrome121.0.0.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20240726221229
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20240730030648
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20240720073013
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20240730030648
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 16 36
+From1 0 0
+From2 0 0
+From3 3 3
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://cpanel.eastfifthcap.com/wp-login.php 2 2
+http://cpanel.eastfifthcap.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 260 0
+308 1 99
+401 57 2760
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 39
+/contact 1 https://eastfifthcap.com/contact
+/docker-compose.yml 1 -
+/back/.git/config 3 -
+/ads.txt 1 -
+/simple.php 1 www.google.com
+/app/.git/config 3 -
+/var/.git/config 3 -
+/assets/.git/config 3 -
+/web/.git/config 3 -
+/mailinspector/login.php 1 -
+/htdocs/.git/config 3 -
+/dev/.git/config 3 -
+/home/.git/config 3 -
+/index/.git/config 3 -
+/wp-content/.git/config 3 -
+/api/.git/config 3 -
+/http/.git/config 3 -
+/git/.git/config 3 -
+/wiki/.git/config 3 -
+/robots.txt 31 -
+/site/.git/config 3 -
+/.git/config 7 -
+/css/.git/config 3 -
+/wp-cron.php 1 -
+/admin/.git/config 3 -
+/vendor/.git/config 3 -
+/s3/.git/config 3 -
+/codebuild.yml 1 -
+/wp-content/plugins/.git/config 3 -
+/.git-credentials 1 -
+/wp-content/themes/.git/config 3 -
+/.well-known/security.txt 2 -
+/style.php 1 www.google.com
+/login/.git/config 3 -
+/CMSModules/MediaLibrary/CMSPages/MultiFileUploader.ashx 1 -
+/backend/.git/config 3 -
+/inputs.php 1 www.google.com
+/ 137 -
+/www/.git/config 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 17
+115.231.78.4 2 2 48973 20240729103717
+213.32.25.76 2 6 221518 20240713074706
+188.166.51.48 1 1 12073 20240713184519
+87.236.176.240 1 1 12073 20240708204904
+199.45.154.150 1 1 12071 20240720073013
+167.94.138.59 1 1 12075 20240720055952
+45.148.10.59 1 17 171560 20240721182420
+206.189.1.254 1 1 12072 20240728034315
+87.236.176.192 1 1 12067 20240726221229
+198.235.24.71 1 1 36901 20240719191431
+205.210.31.211 1 1 36901 20240704154908
+205.210.31.102 1 1 36901 20240726010140
+5.188.159.153 1 1 12081 20240719183637
+13.215.154.132 1 1 12071 20240715070253
+171.108.182.205 1 1 12064 20240729120153
+198.235.24.72 1 1 36901 20240730030648
+45.158.14.229 1 1 12077 20240706031759
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20240704 1 1 36901 1
+20240706 1 2 48996 1
+20240708 1 1 12073 1
+20240713 3 5 159753 2
+20240715 1 1 12071 1
+20240719 2 2 48982 2
+20240720 2 3 61065 2
+20240721 1 17 171560 1
+20240726 2 2 48968 2
+20240728 1 1 12072 1
+20240729 3 3 61037 2
+20240730 1 1 36901 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+2mn-5mn 1
+30s-2mn 1
+0s-30s 15
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 15 305209 14 14
+/wp-login.php 2 24158 2 2
+/installer/index.php 2 73842 1 1
+END_SIDER

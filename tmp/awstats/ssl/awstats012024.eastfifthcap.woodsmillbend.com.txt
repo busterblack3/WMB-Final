@@ -1,0 +1,264 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202401 will be lost/reset.
+# Last config file used to build this data file was /home/k2r1om8prsxd/tmp/awstats/ssl/awstats.eastfifthcap.woodsmillbend.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2035                
+POS_TIME 2696                
+POS_VISITOR 6286                
+POS_DAY 6636                
+POS_DOMAIN 3236                
+POS_LOGIN 3473                
+POS_ROBOT 3628                
+POS_WORMS 3831                
+POS_EMAILSENDER 3962                
+POS_EMAILRECEIVER 4105                
+POS_SESSION 6839                
+POS_SIDER 6985                
+POS_FILETYPES 4240                
+POS_DOWNLOADS 4357                
+POS_OS 4405                
+POS_BROWSER 4505                
+POS_SCREENSIZE 4649                
+POS_UNKNOWNREFERER 4723                
+POS_UNKNOWNREFERERBROWSER 4896                
+POS_ORIGIN 4978                
+POS_SEREFERRALS 5108                
+POS_PAGEREFS 5252                
+POS_SEARCHWORDS 5448                
+POS_KEYWORDS 5600                
+POS_MISC 2360                
+POS_ERRORS 5659                
+POS_CLUSTER 3329                
+POS_SIDER_404 5756                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240201004215 4 582 10166799141306
+FirstTime 0
+LastTime 20240128002612
+LastUpdate 20240201052239 4 0 3 0 0
+TotalVisits 7                   
+TotalUnique 7                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 7                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 2 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 24379 9 11 12198
+1 0 0 0 15 16 0
+2 0 0 0 8 9 52
+3 0 0 0 21 22 0
+4 0 0 0 12 13 37849
+5 0 0 0 4 4 37710
+6 0 0 0 5 5 35
+7 0 0 0 2 2 0
+8 1 1 12190 2 3 52
+9 1 1 12197 7 9 0
+10 0 0 0 5 6 52
+11 0 0 0 13 14 52
+12 0 0 0 6 7 37710
+13 0 0 0 7 9 52
+14 0 0 0 2 3 0
+15 0 0 0 7 7 52
+16 0 0 0 6 9 0
+17 0 0 0 4 5 0
+18 1 1 12193 13 15 12200
+19 0 0 0 5 5 104
+20 2 2 24402 3 4 0
+21 0 0 0 3 4 0
+22 0 0 0 3 5 0
+23 0 0 0 14 16 35
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 6 6 73158
+gb 1 1 12203
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+survey 2 75420 20240106045217 0
+no_user_agent 1 37710 20240107050711 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+Unknown 2 24402 0 0
+html 4 48762 0 0
+php 1 12197 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+macosx14 1 1
+linux 4 4
+Unknown 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 5
+firefox95.0 1 1
+chrome13.0.782.41 1 1
+chrome108.0.0.0 2 2
+mozilla 2 2
+chrome76.0.3809.100 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20240126000412
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 6 6
+From1 0 0
+From2 0 0
+From3 1 1
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://cpanel.eastfifthcap.com/wp-login.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+401 13 625
+404 180 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 10
+/wp-cron.php 1 -
+/general.php 1 www.google.com
+/robots.txt 17 -
+/style.php 1 www.google.com
+/contact-us 1 -
+/.git/config 1 -
+/contact 1 -
+/ 153 -
+/wzy.php 1 www.google.com
+/wp-content/plugins/td-composer/license.txt 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 7
+184.168.115.218 1 1 12197 20240124091028
+164.90.141.31 1 1 12190 20240114084152
+167.248.133.50 1 1 12193 20240125183429
+167.248.133.186 1 1 12191 20240126000412
+193.32.162.87 1 1 12203 20240127201624
+50.18.103.201 1 1 12199 20240105204708
+159.65.159.52 1 1 12188 20240128002612
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20240105 1 1 12199 1
+20240114 1 1 12190 1
+20240124 1 1 12197 1
+20240125 1 1 12193 1
+20240126 1 1 12191 1
+20240127 1 1 12203 1
+20240128 1 1 12188 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 4 48762 4 4
+/.git/config 2 24402 2 2
+/wp-login.php 1 12197 1 1
+END_SIDER

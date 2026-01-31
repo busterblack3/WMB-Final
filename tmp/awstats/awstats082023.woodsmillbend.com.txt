@@ -1,0 +1,308 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202308 will be lost/reset.
+# Last config file used to build this data file was /home/k2r1om8prsxd/tmp/awstats/awstats.woodsmillbend.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2697                
+POS_VISITOR 7758                
+POS_DAY 8377                
+POS_DOMAIN 3311                
+POS_LOGIN 3552                
+POS_ROBOT 3707                
+POS_WORMS 3919                
+POS_EMAILSENDER 4050                
+POS_EMAILRECEIVER 4193                
+POS_SESSION 8461                
+POS_SIDER 8629                
+POS_FILETYPES 4328                
+POS_DOWNLOADS 4495                
+POS_OS 5267                
+POS_BROWSER 5441                
+POS_SCREENSIZE 5736                
+POS_UNKNOWNREFERER 5810                
+POS_UNKNOWNREFERERBROWSER 5996                
+POS_ORIGIN 6177                
+POS_SEREFERRALS 6313                
+POS_PAGEREFS 6457                
+POS_SEARCHWORDS 6688                
+POS_KEYWORDS 6840                
+POS_MISC 2360                
+POS_ERRORS 6899                
+POS_CLUSTER 3408                
+POS_SIDER_404 7003                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230901004301 21 4004 14088477387923
+FirstTime 20230818095643
+LastTime 20230818123826
+LastUpdate 20230901052015 21 0 20 0 0
+TotalVisits 15                  
+TotalUnique 13                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 14                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+AddToFavourites 0 15 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 9 11 2171
+1 0 0 0 11 12 2854
+2 0 0 0 2 2 526
+3 0 0 0 5 7 1686
+4 0 0 0 14 18 4399
+5 0 0 0 10 16 3847
+6 0 0 0 10 11 2660
+7 0 0 0 8 11 2665
+8 0 0 0 36 40 9812
+9 1 10 3753 6 7 2376
+10 24 126 20477731 11 17 6146
+11 1 19 4796 50 53 12747
+12 10 57 10174257 46 49 59357
+13 0 0 0 50 58 13899
+14 0 0 0 22 27 6066
+15 0 0 0 13 16 3811
+16 0 0 0 7 11 2680
+17 0 0 0 16 24 5637
+18 0 0 0 37 39 9948
+19 0 0 0 19 25 5985
+20 0 0 0 11 17 4124
+21 0 0 0 5 6 1446
+22 0 0 0 15 16 3824
+23 0 0 0 7 12 2905
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 36 207 30660116
+gb 0 5 421
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+Go\-http\-client/ 5 3399 20230818122028 0
+no_user_agent 2 3250 20230818121901 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 15 33615 0 0
+php 1 3087 0 0
+html 35 35411 0 0
+js 17 10369 0 0
+jpg 120 30576275 0 0
+txt 24 1780 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 10
+/.well-known/pki-validation/0A03D4E89F6D5935F2A40CEA57A34230.txt 10 0 794
+/.well-known/pki-validation/A9FFA80000E76A37E2396DCD0F49D36C.txt 6 0 474
+/.well-known/pki-validation/B37FA458D1A9B021872EB6C438E0B049.txt 1 0 64
+/.well-known/pki-validation/282DD07550D416A0BD738E99DDC5CB09.txt 1 0 64
+/.well-known/pki-validation/0DA322A7D24090E5B3FA2D1AE61E1515.txt 1 0 64
+/.well-known/pki-validation/ECC08A4D081D154A2C217A09EC1B9BBC.txt 1 0 64
+/.well-known/pki-validation/92197F7F8EB9B22FC37723C23FFC6782.txt 1 0 64
+/.well-known/pki-validation/83E315911A39F3F99D3773754E9B6176.txt 1 0 64
+/.well-known/pki-validation/15CC3217815A98FD352E288E3BED4CD3.txt 1 0 64
+/.well-known/pki-validation/5098258A6CD0179CCC752BE80F1B0A25.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+linux 20 5
+ios_iphone 57 7
+win8.1 1 1
+Unknown 25 1
+win7 4 2
+androidmarshmallow 2 2
+win10 12 6
+macosx15 91 12
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+chrome52.0.2915.98 2 2
+safari16.6 4 1
+chrome37.0.2049.0 1 1
+chrome111.0.0.0 4 4
+chrome115.0.0.0 48 7
+chrome111.0.5563.110 8 2
+chrome79.0.3945.79 8 2
+chrome83.0.4103.61 4 2
+chrome116.0.0.0 43 5
+chrome115.0.5790.170 12 3
+safari 53 6
+Unknown 25 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Sectigo_DCV 20230818115618
+COMODO_DCV 20230818115615
+Installatron_Plugin/9.1.60/295 20230818095643
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Sectigo_DCV 20230818115618
+COMODO_DCV 20230818115615
+Installatron_Plugin/9.1.60/295 20230818095643
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 21 45
+From1 0 0
+From2 0 0
+From3 0 10
+From4 15 157
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://mail.woodsmillbend.com/css/styles.css 0 3
+http://mail.woodsmillbend.com 0 7
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+301 445 106846
+404 32 54368
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 17
+/.vscode/sftp.json 2 -
+/server-status 2 -
+/.DS_Store 2 -
+/wp-admin 1 http://woodsmillbend.com
+/v2/_catalog 2 -
+/s/53e2338313e2130323e2337313/_/ 2 -
+/wp-load.php 1 http://woodsmillbend.com
+/debug/default/view 2 -
+/about 2 -
+/manual.html 2 http://woodsmillbend.com/
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/.env 2 -
+/telescope/requests 2 -
+/login.action 2 -
+/_all_dbs 2 -
+/config.json 2 -
+/.git/config 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 14
+107.127.49.134 7 57 9105942 20230818114222
+54.191.137.17 6 12 1200323 20230818105542
+76.230.156.179 6 47 8974763 20230818123826
+98.230.244.97 5 43 8376639 20230818105449
+205.169.39.126 2 6 599249 20230818102637
+205.169.39.241 2 6 599249 20230818102637
+65.154.226.171 2 8 1196243 20230818122627
+107.77.94.20 1 1 945 20230818100837
+167.99.8.63 1 1 1625 20230818121901
+65.154.226.170 1 4 598122 20230818122627
+161.35.176.95 1 1 1625 20230818121901
+173.201.183.5 1 20 4446 20230818095643
+35.223.178.207 1 1 945 20230818100105
+91.199.212.132 0 5 421 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20230818 36 212 30660537 15
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30s-2mn 2
+5mn-15mn 2
+0s-30s 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 25 22714 14 13
+/html/property.html 3 4359 0 0
+/html/photographs.html 3 3381 0 0
+/html/contact.html 3 3831 0 1
+/html/manual.html 1 1126 0 0
+/deleteme.cha6nhbg.php 1 3087 1 1
+END_SIDER

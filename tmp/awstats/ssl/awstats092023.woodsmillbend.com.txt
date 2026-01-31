@@ -1,0 +1,1190 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202309 will be lost/reset.
+# Last config file used to build this data file was /home/k2r1om8prsxd/tmp/awstats/ssl/awstats.woodsmillbend.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2700                
+POS_VISITOR 25684               
+POS_DAY 37711               
+POS_DOMAIN 3530                
+POS_LOGIN 3989                
+POS_ROBOT 4144                
+POS_WORMS 4920                
+POS_EMAILSENDER 5051                
+POS_EMAILRECEIVER 5194                
+POS_SESSION 38529               
+POS_SIDER 38731               
+POS_FILETYPES 5329                
+POS_DOWNLOADS 5509                
+POS_OS 5600                
+POS_BROWSER 5984                
+POS_SCREENSIZE 7621                
+POS_UNKNOWNREFERER 7695                
+POS_UNKNOWNREFERERBROWSER 8641                
+POS_ORIGIN 9274                
+POS_SEREFERRALS 9415                
+POS_PAGEREFS 9578                
+POS_SEARCHWORDS 10004               
+POS_KEYWORDS 10156               
+POS_MISC 2364                
+POS_ERRORS 10215               
+POS_CLUSTER 3845                
+POS_SIDER_404 10351               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20231001003654 37 8359 18006556480730
+FirstTime 20230901032056
+LastTime 20230930224342
+LastUpdate 20231001052242 37 0 36 0 0
+TotalVisits 342                 
+TotalUnique 302                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 319                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 6 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 18 18 23720 14 21 37691
+1 12 12 28025 219 221 369177
+2 18 32 1874856 48 71 99575
+3 19 123 16815281 27 48 56730
+4 11 18 2620750 67 82 128865
+5 22 223 30205071 20 32 672478
+6 13 110 14636074 57 61 59534
+7 25 236 24795283 56 77 843084
+8 19 124 16895786 28 46 62310
+9 28 232 32897468 5 12 7657
+10 19 128 16874645 21 33 43857
+11 26 314 44885607 15 20 55347
+12 39 260 34721246 14 35 624662
+13 56 289 37942266 45 70 86624
+14 24 36 3390779 10 27 23825
+15 32 38 1120591 11 32 54915
+16 30 49 3586372 34 46 53765
+17 11 125 18661329 210 213 353578
+18 33 251 23519565 34 60 670874
+19 28 338 52456776 31 48 1033999
+20 8 8 5488 11 21 612892
+21 6 6 14263 7 12 63228
+22 5 6 4829 3 14 17135
+23 19 23 619418 13 23 21781
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 19
+us 396 2856 378339047
+ca 34 34 94125
+cn 14 17 12316
+ru 14 19 69961
+gb 12 13 7722
+se 9 12 10944
+be 8 14 42028
+fr 7 7 1790
+de 6 6 2148
+in 5 5 1432
+ua 4 4 1897
+sa 3 3 4965
+ro 3 3 4965
+nl 1 1 358
+au 1 1 358
+nz 1 1 358
+mu 1 1 358
+cz 1 1 358
+kr 1 1 358
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+Googlebot/ 70 48913 20230930231749 0
+bingbot/ 29 1217967 20230929071525 0
+no_user_agent 27 89318 20230930125055 0
+DotBot/ 9 69962 20230916104500 0
+Applebot/ 9 604474 20230914022001 0
+AhrefsBot/ 8 2312 20230929221940 0
+facebookexternalhit/ 8 1530641 20230922101943 0
+CFNetwork 8 612458 20230922101943 0
+survey 7 79930 20230907063321 0
+link 7 6229 20230916111327 0
+SemrushBot/ 6 2148 20230924093259 0
+Go\-http\-client/ 6 2148 20230914135709 0
+bot[\s_+:,\.\;\/\\-] 6 14020 20230929053336 0
+MJ12bot/ 5 4322 20230929110149 0
+Googlebot\-Image/ 3 7722 20230926074320 0
+crawl 2 716 20230925184441 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 0 20230903165745 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+html 521 505509 0 0
+css 61 165188 0 0
+js 69 100234 0 0
+jpg 2250 349737771 0 0
+pdf 30 27927198 0 0
+png 68 159588 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/pdf/wmb%20user%20manual.pdf 31 0 28858126
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 23
+win7 18 16
+ios_iphone 1457 99
+winxp 3 3
+linuxubuntu 5 5
+macosx7 3 2
+macosx11 1 1
+Unknown 93 70
+androidnougat 3 3
+androidkitkat 5 5
+macosx13 7 4
+macosx10 1 1
+android10 348 26
+androidpie 1 0
+macosx9 2 2
+win16 1 0
+macosx6 6 6
+win10 328 109
+linux 123 108
+macosx 4 3
+macosx12 99 6
+macosx15 488 49
+androidics 1 1
+win8.1 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 79
+firefox103.0 1 1
+safari15.6 1 1
+chrome104.0.0.0 6 6
+chrome76.0.3809.100 2 2
+safari15.5 1 1
+chrome74.0.3694.0 5 2
+chrome81.0.4044.129 2 2
+chrome105.0.0.0 9 6
+chrome74.0.3729.157 1 1
+chrome55.0.2883.87 1 1
+firefox66.0 1 1
+chrome86.0.4240.198 7 3
+chrome103.0.0.0 106 13
+chrome110.0.5481.100 2 2
+chrome116.0.0.0 553 38
+chrome60.0.3112.107 3 3
+chrome68.0.3440.106 1 0
+chrome102.0.0.0 1 1
+chrome79.0.3945.130 2 2
+chrome99.0.4844.51 2 2
+chrome83.0.4103.97 62 62
+chrome17.0.963.56 3 2
+iphone 317 20
+chrome110.0.5481.177 5 2
+safari15.4 1 1
+opera11.61 1 1
+chrome74.0.3729.169 9 9
+safari10.0 1 0
+safari9.1.3 1 1
+chrome96.0.4664.110 2 1
+firefox102.0 1 1
+safari 420 24
+firefox63.0 1 1
+firefox77.0 1 1
+chrome115.0.0.0 8 5
+chrome45.0.2454.85 1 1
+chrome78.0.3904.108 2 2
+firefox40.0 1 1
+chrome87.0.4280.88 3 2
+mozilla 57 33
+safari16.0 1 1
+chrome60.0.3112.90 2 2
+chrome114.0.0.0 21 17
+safari9.0 1 0
+chrome65.0.3325.181 1 1
+chrome103.0.5060.134 14 6
+chrome58.0.3029.110 4 4
+opera99.0.0.0 1 0
+chrome19.0.1061.1 1 1
+chrome89.0.4389.82 2 2
+edge17 2 2
+firefox115.0 2 2
+chrome115.0.5790.170 20 8
+chrome112.0.0.0 2 2
+chrome75.0.3770.143 1 0
+netscape5.0 3 3
+chrome113.0.0.0 1 1
+Unknown 37 37
+chrome106.0.0.0 11 11
+chrome80.0.3987.162 1 1
+firefox47.0 1 1
+chrome95.0.4638.54 2 2
+chrome108.0.0.0 22 22
+chrome64.0.3282.186 1 1
+msie8.0 2 2
+chrome100.0.4896.60 12 12
+chrome101.0.4951.64 1 1
+chrome117.0.0.0 365 30
+safari16.6 679 41
+chrome91.0.4472.114 4 4
+chrome63.0.3239.132 3 2
+firefox67.0 1 1
+firefox117.0 1 1
+android 6 6
+firefox45.0 1 1
+safari16.1 126 14
+firefox28.0 4 4
+chrome66.0.3359.181 10 10
+safari16.3 26 7
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 11
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20230925021341
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20230925064541
+Mozilla/5.0_researchscan.comsys.rwth-aachen.de 20230928212659
+surf-http-client/6.6.6_(_https://github.com/x0xO/surf) 20230924234620
+python-requests/2.31.0 20230925082254
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230929221156
+Python/3.11_aiohttp/3.8.4 20230922045022
+Mozilla/5.0_(compatible;_Dataprovider.com) 20230923132527
+python-requests/2.26.0 20230927052233
+Python/3.10_aiohttp/3.8.3 20230925042325
+python-requests/2.23.0 20230912173157
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+Python/3.11_aiohttp/3.8.4 20230922045022
+surf-http-client/6.6.6_(_https://github.com/x0xO/surf) 20230924234620
+Python/3.10_aiohttp/3.8.3 20230925042325
+python-requests/2.23.0 20230912173157
+python-requests/2.26.0 20230927052233
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230929221156
+python-requests/2.31.0 20230925082254
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 330 380
+From1 1 1
+From2 1 1
+From3 11 17
+From4 178 2600
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+https://l.instagram.com 4 4
+https://mail.woodsmillbend.com 2 2
+http://mail.woodsmillbend.com 1 1
+https://qiper.ru/woodsmillbend.com 1 1
+http://cpanel.woodsmillbend.com 1 1
+http://173.201.183.5:80 1 1
+https://l.instagram.com 1 1
+https://mail.woodsmillbend.com/html/main.html 0 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+401 18 834
+308 1 93
+404 1000 1549427
+421 2 644
+206 2 135941
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 435
+/k.php 2 -
+/wp-includes/install.php 3 http://woodsmillbend.com//wp-includes/install.php
+/blog.php 2 -
+/wp-consar.php 1 -
+/ads.txt 6 http://woodsmillbend.com/ads.txt
+/s.php 2 -
+/small.php 2 -
+/2019/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/wp-content/plugins/wordpress-seo/admin/banner/index.php 2 -
+/wp-info.php 3 -
+/SHOP 1 http://woodsmillbend.com/SHOP
+/rss.php 2 -
+/wp-config-sample.php 2 -
+/beence.php 2 -
+//wp1/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/classic-editor/wp-login.php 1 -
+/wp-admni/js/index.php 2 -
+/ee.php 2 http://woodsmillbend.com//ee.php
+/wp-includes/js/tinymce/skins/lightgray/img/index.php 3 -
+/2.php 2 -
+/wp-admin/maint/moon.php 2 http://woodsmillbend.com//wp-admin/maint/moon.php
+/shx.php 2 -
+/xmlrpc.php 2 -
+/blog/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/wp-admin/js/widgets/wp-login.php 2 -
+/mini.php 2 -
+/hello.php 2 -
+/new 1 http://woodsmillbend.com/new
+/403.php 2 -
+/wp-includes/991176.php 2 -
+/l.php 2 -
+/wp-old 1 http://woodsmillbend.com/wp-old
+/alfanew2.php7 1 -
+/demo 1 http://woodsmillbend.com/demo
+/wso2.php 2 -
+/wp-includes/sodium_compat/src/Core32/Curve25519/Ge/index.php 2 -
+/2021 1 http://woodsmillbend.com/2021
+/Wordpress 1 http://woodsmillbend.com/Wordpress
+/wp-json/wp/v2/users 2 -
+/wp-admin/repeater.php 1 -
+/wp-admin/css/colors/modern/lofter.php 2 -
+/alfa-rex.php7 3 -
+/3.php 2 -
+/wp-includes/js/tinymce/skins/lightgray/fonts/index.php 2 -
+/old-site 1 http://woodsmillbend.com/old-site
+/admin.php 1 -
+/install.php 3 http://woodsmillbend.com//install.php
+/x.php 2 -
+/wp-includes/IXR/bak.php 2 -
+/license.txt 1 -
+/misc/ajax.js 10 -
+/database.php 2 -
+/wp-content/plugins/envato-market/inc/class-envato-market-api.php 1 www.google.com
+/content.php 2 -
+/Makhdamx.php 4 -
+//news/wp-includes/wlwmanifest.xml 1 -
+//media/wp-includes/wlwmanifest.xml 1 -
+/test/ 1 -
+/date.php 2 -
+/new/ 1 -
+/xleet-shell.php 2 -
+/wp-admin/js/widgets/xmrlpc.php 2 -
+/wp-admin/images/install.php 3 http://woodsmillbend.com//wp-admin/images/install.php
+/ws.php 2 -
+/q.php 2 -
+//wp2/wp-includes/wlwmanifest.xml 1 -
+/h.php 2 -
+/wp-content/dropdown.php 2 http://woodsmillbend.com//wp-content/dropdown.php
+/w3llstore.php 2 -
+//wp/wp-includes/wlwmanifest.xml 2 -
+/backup/ 1 -
+/my1.php 1 http://woodsmillbend.com//my1.php
+/wp-content/plugins/core-plugin/include.php 3 -
+/sitio 1 http://woodsmillbend.com/sitio
+/alwso.php 2 -
+/wp-admin/css/colors/light/admin.php 2 -
+/.well-known/acme-challenge/cloud.php 1 www.google.com
+/wp-blog.php 2 -
+/wp-admin/fw.php 2 -
+/license.php 2 -
+/wp-class.php 2 -
+/wp-includes/images/include.php 1 www.google.com
+/wp-admin/css/colors/midnight/xmlrpcs.php 2 -
+/wp-content/plugins/litespeed-cache/assets/img/icons/index.php 2 -
+/wp-content/plugins/index.php 2 -
+/wp-content/plugins/Cache/Cache.php 2 www.google.com
+/radio.php 3 -
+/wp-admin/css/colors/ectoplasm/wp-crons.php 2 -
+/edit-form.php 2 -
+/ws.php7 1 -
+/wp-commentin.php 2 -
+/wp-content/plugins/better-search-replace/languages/index.php 2 -
+/shell.php 3 -
+/photographs.html 4 -
+/autoload_classmap.php 2 -
+/SITE 1 http://woodsmillbend.com/SITE
+/backup 1 http://woodsmillbend.com/backup
+/sito/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/wp-admin/css/colors/blue/about.php 1 www.google.com
+/Wp 1 http://woodsmillbend.com/Wp
+/wp-file.php 2 -
+/WordPress 1 http://woodsmillbend.com/WordPress
+//xmlrpc.php 2 -
+/New 1 http://woodsmillbend.com/New
+/wp-admin/network/xmrlpc.php 3 -
+/wp-includes/css/buttons.css 3 http://woodsmillbend.com/wp-includes/css/buttons.css
+/wp-admin/css/colors/coffee/about.php 1 www.google.com
+/FoxWSO.php 2 -
+/wp-admin/ajax-actions.php 1 -
+/wp2.php 2 -
+/wp1/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/alfacgiapi/perl.alfa 3 www.google.com
+/wp-content/themes/twentytwentyone/assets/sass/05-blocks/tag-clould/load.php 2 -
+/sitemaps.xml 4 -
+/author-sitemap.xml 2 -
+/web/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/www 1 http://woodsmillbend.com/www
+/bypass.php 2 -
+/wp-content/plugins/install.php 3 http://woodsmillbend.com//wp-content/plugins/install.php
+/cgi-bin/cgi-bin/about.php7 2 http://woodsmillbend.com//cgi-bin/cgi-bin/about.php7
+/alfa.php 2 -
+/robots.txt 113 -
+/wp-includes/SimplePie/XML/lofter.php 2 -
+/public/403.php 2 -
+/shop/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/wp-admin/css/colors/coffee/lofter.php 2 -
+/100.php 2 -
+/templates/beez5/index.php 2 -
+/wp-includes/blocks/table/int/tmpl/index.php 1 www.google.com
+/Blog 1 http://woodsmillbend.com/Blog
+/media/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/2022/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/old 1 http://woodsmillbend.com/old
+//test/wp-includes/wlwmanifest.xml 2 -
+/mari.php 2 -
+/11index.php 2 -
+/wp-includes/SimplePie/admin.php 2 -
+/wp-content/fw.php 2 -
+/sh.php 2 -
+/wp-admin/admin-ajax.php 2 http://woodsmillbend.com//wp-admin/admin-ajax.php
+/wp-includes/Text/about.php 2 http://woodsmillbend.com//wp-includes/Text/about.php
+/cgi-bin/install.php 2 http://woodsmillbend.com//cgi-bin/install.php
+/vuln.php 2 -
+/alfa-rex.php 3 -
+/about.php7 1 -
+/main 1 http://woodsmillbend.com/main
+/temp/ 1 -
+/wso.php 2 -
+/WORDPRESS 1 http://woodsmillbend.com/WORDPRESS
+/wp-includes/wp-includes/js/tinymce/themes/advanced/skins/default/wp.php 2 -
+/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/index.php 2 -
+/wp-admin/css/index.php 2 www.google.com
+/wp-content/themes/seotheme/db.php 3 -
+/m.php 2 -
+/wp-content/plugins/duplicator/installer/dup-installer/src/index.php 2 -
+/sitemap_index.xml 6 -
+/TEST 1 http://woodsmillbend.com/TEST
+/wp-admin/css/colors/sunrise/wp-admin.php 2 -
+//site/wp-includes/wlwmanifest.xml 2 -
+/wp-admin/css/colors/light/index.php 2 -
+/ebs.php7 1 -
+/wp-admin/css/colors/coffee/index.php 3 -
+/wp-includes/wp-class.php 2 -
+/c99.php 2 -
+/.env 24 -
+/2020 1 http://woodsmillbend.com/2020
+/w.php 2 -
+/ups.php 2 -
+/style.php 3 -
+/wp-admin/css/fw.php 2 -
+/wikindex.php 2 -
+/blog 1 http://woodsmillbend.com/blog
+/new.php 2 -
+/o.php 2 -
+/oldsite 1 http://woodsmillbend.com/oldsite
+/f.php 2 -
+/wp-admin/js/about.php 3 http://woodsmillbend.com//wp-admin/js/about.php
+/0byte.php 2 -
+//2020/wp-includes/wlwmanifest.xml 1 -
+/old/ 1 -
+/wp.php 2 -
+/.well-known/admin.php 1 www.google.com
+/y.php 2 -
+/1.php 2 -
+//website/wp-includes/wlwmanifest.xml 1 -
+/wp-admin/css/colors/coffee/xmrlpc.php 2 -
+/.well-known/acme-challenge/xmrlpc.php 4 -
+/wp-cron.php 2 -
+/wp-admin/css/colors/sunrise/admin.php 2 -
+/wp-head.php 2 http://woodsmillbend.com//wp-head.php
+/alfashell.php 2 -
+/wp-admin/maint/about.php 2 -
+/wp-plain.php 3 www.google.com
+/old-index.php 2 -
+/wp/ 1 -
+/wp-admin/js/about.php7 2 http://woodsmillbend.com//wp-admin/js/about.php7
+/adminfuns.php7 1 -
+/444.php 1 -
+/wp-admin/install.php 3 http://woodsmillbend.com//wp-admin/install.php
+/wp-includes/js/jcrop/themes.php 2 -
+/bc 1 http://woodsmillbend.com/bc
+/Backup 1 http://woodsmillbend.com/Backup
+/security.txt 1 http://www.woodsmillbend.com/security.txt
+/dropdown.php 5 http://woodsmillbend.com//dropdown.php
+/Old 1 http://woodsmillbend.com/Old
+/wp-admin/css/colors/blue/xmlrpcs.php 2 -
+/fw.php 2 -
+/.cgi/cache/index.php 2 -
+/Www 1 http://woodsmillbend.com/Www
+/wp-p.php7 1 -
+//web/wp-includes/wlwmanifest.xml 2 -
+/wp-content/themes/twenty/twenty.php 2 http://woodsmillbend.com//wp-content/themes/twenty/twenty.php
+/asset-manifest.json 1 https://woodsmillbend.com/html/main.html
+/2022 1 http://woodsmillbend.com/2022
+/.well-known/acme-challenge/install.php 3 http://woodsmillbend.com//.well-known/acme-challenge/install.php
+/wp-content/plugins/WordPressCore/include.php 1 www.google.com
+/wp-admin/css/colors/midnight/wp-admin.php 2 -
+/g.php 2 -
+/NEW 1 http://woodsmillbend.com/NEW
+/Alfa.php 2 -
+/wp-content/plugins/revslider/includes/external/page/index.php 2 -
+/OLD 1 http://woodsmillbend.com/OLD
+/wp-includes/wlwmanifest.xml 11 -
+/wp-content/x.php 2 -
+/p.php 2 -
+/moduless.php 2 -
+/mar.php 2 -
+/13.php 2 -
+/xmrlpc.php 2 -
+/wp-admin.php 2 -
+/goods.php 2 -
+/about.php 3 -
+/wp-content/repeater.php 1 -
+/wp-includes/js/tinymce/utils/wp-config-samples.php 2 -
+/wp 1 http://woodsmillbend.com/wp
+/wp_wrong_datlib.php 2 -
+/wp-admin/images/xmrlpc.php 2 -
+/wp-content/plugins/elementor/core/editor/data/index.php 2 -
+/0.php 2 -
+/wso1.php 2 -
+/Main_Page 1 http://woodsmillbend.com/Main_Page
+/wp-content/plugins/really-simple-ssl/lets-encrypt/functions.php 2 -
+/wp-content/index.php 3 -
+/.vscode/sftp.json 1 -
+/wp-content/plugins/essential-addons-for-elementor-lite/readme.txt 5 www.google.com
+/plugins/background-image-cropper/ups.php 2 -
+/alfanew.php 1 -
+/phone/index.html 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 5 -
+/sftp-config.json 1 -
+/wp-content/plugins/seoplugins/index.php 2 -
+/fox.php 2 -
+/xl.php 2 -
+/sitemap.xml.gz 5 -
+/4.php 2 -
+/c.php 2 -
+/apple-touch-icon-precomposed.png 13 -
+/e.php 2 -
+/humans.txt 6 http://woodsmillbend.com/humans.txt
+/a.php 2 -
+/wp-uploads.php 2 -
+/wp-content/plugins/ 2 http://woodsmillbend.com//wp-content/plugins/
+//cms/wp-includes/wlwmanifest.xml 2 -
+/alfanew.php7 1 -
+/haxor.php 2 -
+/wp-content/plugins/elementor/modules/shapes/index.php 2 -
+/wp-admin/css/colors/modern/wp-login.php 2 -
+/wp-admin/css/colors/light/load.php 2 -
+/ccx/index.php 3 -
+/yanz.php 1 -
+/wp-cc.php 2 -
+/class.api.php 1 http://woodsmillbend.com//class.api.php
+/st.php 1 http://woodsmillbend.com//st.php
+/wp-includes/js/tinymce/plugins/compat3x/css/index.php 4 http://woodsmillbend.com//wp-includes/js/tinymce/plugins/compat3x/css/index.php
+/wp-includes/shell20211028.php 2 -
+/ok.php 2 -
+/blog/ 1 -
+/wp-content/plugins/elementor/assets/lib/swiper/index.php 2 -
+/admin-post.php 1 -
+/alfa-rex2.php7 1 -
+//blog/wp-includes/wlwmanifest.xml 2 -
+//2018/wp-includes/wlwmanifest.xml 1 -
+/wp-content/plugins/js_composer/assets/fonts/vc_icons/fonts/index.php 2 -
+/wp-admin/user/xmrlpc.php 2 -
+/2018/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/wp-includes/SimplePie/Cache/lofter.php 2 -
+/apple-touch-icon.png 13 -
+/news/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/wordpress-seo/vendor/xrstf/composer-php52/lib/xrstf/Composer52/wp-admin.php 2 -
+/1index.php 2 -
+/contact.html 4 -
+/wp-content/plugins/seoplugins/db.php 1 www.google.com
+/wp-load/SimplePie/IXR/met/met/wp.php 2 -
+/.well-known/acme-challenge/license.php 1 www.google.com
+/wp-includes/js/tinymce/skins/wordpress/images/index.php 2 -
+/css/xmrlpc.php 2 -
+/wp-content/patior/ 3 http://woodsmillbend.com//wp-content/patior/
+/wp-admin/css/colors/xmrlpc.php 2 -
+/wp-content/themes/pridmag/db.php 4 -
+/wp/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/ALFA_DATA/alfacgiapi/perl.alfa 3 www.google.com
+/wp-content/plugins/woocommerce-payments/readme.txt 2 -
+/cms/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/0z.php 2 -
+/bak 1 http://woodsmillbend.com/bak
+/wp-content/themes/seotheme/mar.php 3 -
+/img/xmrlpc.php 2 -
+/uploads/up.php 2 -
+/ajax-actions.php 1 -
+/jindex.php 2 -
+/administrator/index.php 10 -
+/9.php 2 -
+/ioxi-rex4.php7 1 -
+/wp-admin/dropdown.php 3 http://woodsmillbend.com//wp-admin/dropdown.php
+/repeater.php 4 -
+/wp-content/install.php 3 http://woodsmillbend.com//wp-content/install.php
+/wp-admin/css/colors/blue/admin.php 2 -
+/xleet.php 2 -
+/5.php 2 -
+/wp-content/uploads/ 2 http://woodsmillbend.com//wp-content/uploads/
+/.tmb/cache/shz.php 2 -
+//wp-includes/ID3/license.txt 1 -
+/.well-known/security.txt 1 http://www.woodsmillbend.com/.well-known/security.txt
+/wp-includes/wp-info.php 1 www.google.com
+/xx.php 2 -
+/WP 1 http://woodsmillbend.com/WP
+/1337.php 2 -
+/n.php 2 -
+/cjfuns.php 2 http://woodsmillbend.com//cjfuns.php
+/property.html 5 -
+/wp-admin/includes/xmrlpc.php 2 -
+/sito 1 http://woodsmillbend.com/sito
+/wp-content/wp.php 2 -
+/UEPs 1 -
+/media/system/js/core.js 3 http://woodsmillbend.com/media/system/js/core.js
+/.git/HEAD 1 http://www.woodsmillbend.com/.git/HEAD
+/.git/config 2 -
+/i.php 2 -
+/root.php 2 -
+/wp-admin/css/colors/midnight/wp-crons.php 2 -
+/wp-admin/radio.php 2 -
+//feed/ 1 -
+/Site 1 http://woodsmillbend.com/Site
+/wp-includes/about.php 2 -
+/view-source: 10 -
+/cgi-bin/cgi-bin/about.php 2 http://woodsmillbend.com//cgi-bin/cgi-bin/about.php
+/wp-admin/x.php 1 www.google.com
+/wp-admin/js/widgets/about.php7 1 -
+//2021/wp-includes/wlwmanifest.xml 1 -
+/wp-includes/style-engine/index.php 2 -
+/xltavrat.php 2 -
+/b.php 2 -
+/uploader.php 2 -
+/wp-admin/css/colors/coffee/wp-load.php 2 -
+/wp-includes/pomo/index.php 2 -
+/WWW 1 http://woodsmillbend.com/WWW
+/vendor/phpunit/phpunit/phpunit.xsd 3 -
+/wso112233.php 2 -
+/_profiler/empty/search/results 1 -
+/404.php 2 -
+/WSO.php 2 -
+/images/about.php 2 -
+/website/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/wp-content/plugins/seoo/wsoyanz1.php 1 -
+/wp-admin/css/colors/ocean/wp-crons.php 2 -
+/jxryvawh.php 1 www.google.com
+/marijuana.php 2 -
+/wp-admin/css/colors/ectoplasm/jsdindex.php 2 -
+/01.php 2 -
+/sitemap.txt 3 -
+/wp-content/plugins/seoplugins/mar.php 3 -
+/wordpress 1 http://woodsmillbend.com/wordpress
+/bk 1 http://woodsmillbend.com/bk
+/wp-content/plugins/seoo/alfa-ioxi.php 1 -
+/2index.php 2 -
+/v.php 2 -
+/wp-admin/css/colors/blue/blue.php 1 -
+/cdxbfmjb.php 1 www.google.com
+/cache-compat.php 1 -
+/shop 1 http://woodsmillbend.com/shop
+/test/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/wp-login.php 3 http://www.woodsmillbend.com/wp-login.php
+/test 1 http://woodsmillbend.com/test
+/saxryzgc.php 1 www.google.com
+/doc.php 2 -
+/r.php 2 -
+/wp-22.php 2 -
+/cgi-bin/xmrlpc.php 2 -
+/wp-admin/ 2 -
+/wp-admin/includes/class-wp-media-list-data.php 2 -
+/wp-content/plugins/Cache/dropdown.php 2 http://woodsmillbend.com//wp-content/plugins/Cache/dropdown.php
+/wp-includes/rest-api/about.php 2 http://woodsmillbend.com//wp-includes/rest-api/about.php
+/css/install.php 3 http://woodsmillbend.com//css/install.php
+/Test 1 http://woodsmillbend.com/Test
+/wp-admin/css/colors/blue/xmrlpc.php 2 -
+/2021/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/wp-admin/xmrlpc.php 2 -
+/BACKUP 1 http://woodsmillbend.com/BACKUP
+/alf.php 2 -
+//2019/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/seoo/wsoyanz.php 2 www.google.com
+/wp-content/plugins/elementor/assets/lib/font-awesome/migration/index.php 2 -
+/z.php 2 -
+/wp-content/about.php 2 -
+//sito/wp-includes/wlwmanifest.xml 1 -
+/2018 1 http://woodsmillbend.com/2018
+/2019 1 http://woodsmillbend.com/2019
+/site/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/sitemap.xml 7 -
+/site 1 http://woodsmillbend.com/site
+/BLOG 1 http://woodsmillbend.com/BLOG
+//wp-includes/wlwmanifest.xml 1 -
+//wordpress/wp-includes/wlwmanifest.xml 2 -
+/xxx.php 2 -
+/wp-admin/img/php-compat/blocks/themes/index.php 2 -
+/wp-content/plugins/linkpreview/db.php 1 www.google.com
+/bac 1 http://woodsmillbend.com/bac
+/wordpress/ 1 -
+//shop/wp-includes/wlwmanifest.xml 2 -
+/wp-admin/css/colors/ocean/lofter.php 2 -
+/wp-admin/maint/maint/ajax-actions.php 1 -
+/10.php 2 -
+/Shop 1 http://woodsmillbend.com/Shop
+/fx.php 2 -
+/priv8.php 2 -
+/images/xmrlpc.php 2 -
+/123.php 2 -
+/wordpress/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/2020/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/wp-content/themes/ccx/index.php 2 -
+/up.php 2 -
+/wp-includes/repeater.php 1 -
+/wp2/wp-includes/wlwmanifest.xml 1 woodsmillbend.com
+/wp-json/wp/v2/users/1 2 -
+/u.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 319
+76.230.156.179 26 424 49757621 20230926082044
+162.231.203.192 20 250 40632057 20230927142306
+136.56.57.51 15 166 27529286 20230928105015
+54.88.179.33 9 9 5508 20230920164839
+104.2.129.228 7 26 5560215 20230907184756
+24.172.104.190 6 101 14419173 20230927060604
+107.77.235.175 6 22 2857085 20230918123206
+70.180.92.16 6 97 14699780 20230918195610
+74.110.200.134 5 25 3715012 20230921134015
+174.109.100.25 5 14 1857525 20230918183845
+172.124.105.57 5 104 14691017 20230923121558
+107.127.49.137 5 100 5153288 20230908071035
+70.130.74.93 5 183 26187742 20230926054651
+131.153.240.10 5 5 1790 20230921161536
+107.122.157.8 4 95 13940810 20230918123334
+107.77.235.126 4 99 14418641 20230925130916
+65.154.226.167 4 10 1197724 20230908123409
+216.82.62.195 4 98 14023471 20230927092755
+51.254.199.11 4 4 1432 20230929061046
+54.159.2.19 4 97 14020897 20230907113538
+51.15.200.97 4 4 4056 20230907205731
+174.111.214.134 4 96 14018415 20230913192500
+69.34.147.73 4 15 4299406 20230925042718
+108.211.234.143 4 97 14020897 20230922092048
+75.7.138.95 4 96 14018415 20230914052022
+137.184.84.215 1 1 358 20230925082254
+96.232.200.22 3 9 999538 20230906180409
+52.42.214.106 1 1 358 20230924154700
+95.217.190.249 1 1 358 20230925194745
+65.21.144.12 2 3 1714 20230907115926
+35.92.199.175 1 1 358 20230902183512
+176.111.174.153 3 3 4965 20230906002913
+135.148.195.8 1 3 6003 20230903180958
+34.212.15.83 1 1 358 20230902131137
+35.92.211.203 1 1 358 20230902131213
+185.167.96.45 1 1 358 20230927052233
+52.38.53.197 1 1 358 20230901142006
+205.210.31.150 1 1 612 20230907170917
+205.210.31.140 1 1 612 20230914210759
+24.144.84.102 1 1 358 20230911231457
+52.13.142.11 1 1 358 20230918142037
+45.18.35.125 1 2 931194 20230913074635
+154.12.246.74 1 1 358 20230901200440
+54.213.137.181 1 1 358 20230909121654
+135.148.195.2 1 1 358 20230903180958
+162.142.125.214 1 2 2932 20230911143559
+36.99.136.128 1 1 358 20230911102801
+87.236.176.198 0 1 2574 
+135.148.195.6 0 1 2574 
+172.59.104.189 0 1 930928 
+87.236.176.9 1 1 12219 20230913230738
+37.19.201.137 2 2 927 20230903030942
+52.33.72.212 1 1 358 20230910152555
+34.208.139.4 1 1 358 20230912131822
+35.88.64.131 2 2 716 20230901141957
+87.236.176.69 1 1 358 20230924082913
+198.235.24.128 1 1 612 20230926005954
+178.254.29.124 2 2 716 20230916053959
+75.101.215.119 2 2 716 20230922030037
+167.99.152.8 1 1 358 20230913192454
+35.226.195.131 2 2 716 20230907132708
+167.94.146.56 1 1 12219 20230922000714
+34.218.45.91 1 1 358 20230912131829
+199.244.88.219 1 1 358 20230914055950
+198.235.24.60 1 1 612 20230925152803
+205.210.31.72 1 1 612 20230919160155
+135.148.195.10 1 1 855 20230930055813
+87.236.176.136 0 1 2574 
+159.223.128.182 1 1 358 20230910000651
+34.222.146.240 1 1 358 20230902131016
+167.248.133.125 1 1 12219 20230923155010
+35.89.130.137 1 1 358 20230912131842
+54.202.207.7 1 1 358 20230906121238
+109.123.233.136 1 1 358 20230916132421
+166.194.154.107 2 5 598954 20230930073322
+98.26.40.50 2 15 2455308 20230922091133
+79.137.198.213 1 1 358 20230921095853
+138.197.5.143 1 1 358 20230912000920
+34.217.22.11 1 1 358 20230921135400
+167.248.133.51 1 2 2932 20230911165633
+172.59.105.89 0 1 930928 
+185.181.60.189 2 2 716 20230924095901
+205.210.31.184 1 1 612 20230906075114
+15.204.194.30 1 2 2932 20230918164059
+49.13.58.207 2 2 358 20230904155524
+54.212.40.83 1 1 358 20230918142110
+167.94.146.58 1 2 2932 20230925020341
+205.210.31.227 1 1 612 20230929085355
+167.99.94.234 1 1 358 20230916131028
+34.214.52.218 1 1 358 20230903130953
+51.15.247.139 1 1 266 20230905075556
+5.133.192.135 1 2 2932 20230923030611
+87.236.176.235 0 1 2574 
+52.41.171.56 1 1 358 20230919125508
+167.99.189.183 1 1 358 20230914011641
+205.210.31.43 1 1 612 20230906080330
+34.220.78.35 1 1 358 20230922155418
+40.94.31.46 0 1 2574 
+87.236.176.213 1 1 358 20230920113612
+154.127.53.57 1 1 358 20230915034338
+135.148.195.3 2 3 3290 20230913184426
+172.58.250.54 0 78 11954538 
+198.235.24.243 1 1 612 20230901032056
+87.236.176.85 1 1 12217 20230914063353
+54.191.23.29 1 1 358 20230923152257
+198.235.24.75 1 1 612 20230907172042
+139.177.204.222 2 2 716 20230904205956
+45.55.196.31 1 1 358 20230902011731
+194.195.208.238 2 2 716 20230902141748
+35.91.245.187 1 1 358 20230910152555
+198.235.24.96 1 1 37927 20230902091931
+131.153.240.162 1 1 358 20230921015903
+44.203.63.11 2 2 927 20230919023324
+142.93.63.7 1 1 358 20230904073235
+167.99.84.98 1 1 358 20230918000956
+162.142.125.224 1 2 2932 20230925064540
+52.39.115.99 1 1 358 20230923152235
+40.94.25.52 2 5 598954 20230926110658
+52.25.237.29 1 1 358 20230912131845
+35.87.42.43 1 1 358 20230910152623
+54.201.20.181 1 1 358 20230904201825
+172.59.221.192 0 1 930928 
+167.94.138.127 1 2 2932 20230902135142
+87.236.176.17 1 1 358 20230923195111
+218.234.77.80 1 1 358 20230922045022
+54.202.232.115 1 1 358 20230906121224
+35.166.202.0 1 1 358 20230918142035
+34.221.34.156 1 1 358 20230928143631
+108.192.133.40 2 5 598862 20230930162456
+66.110.231.31 3 12 1855157 20230920025705
+85.209.11.117 3 3 4965 20230923094544
+167.94.145.55 1 2 2932 20230914102848
+34.220.215.90 1 1 358 20230919125509
+3.81.228.74 2 2 716 20230922025920
+65.154.226.166 2 5 598862 20230908102551
+54.164.101.209 1 1 612 20230907114656
+172.58.172.248 0 1 930928 
+138.197.76.63 1 1 358 20230926055534
+172.59.105.71 1 84 12163258 20230918195757
+42.83.147.34 3 3 1074 20230926234145
+34.220.63.7 1 1 612 20230921044318
+54.148.82.212 1 1 358 20230903130951
+45.66.230.101 1 1 358 20230926154720
+12.205.7.197 3 12 1260717 20230921053423
+71.77.34.52 0 3 2792784 
+172.58.134.197 2 12 1857373 20230928034405
+192.71.126.27 1 1 358 20230924125115
+54.190.177.97 1 1 358 20230923152217
+166.198.157.121 2 5 4422 20230926124739
+184.75.223.195 1 1 358 20230924234620
+35.88.133.14 1 1 358 20230903130854
+87.236.176.39 0 1 2574 
+34.214.254.43 1 1 358 20230902130859
+131.153.240.178 1 1 358 20230921015904
+91.227.68.182 1 1 0 20230927064200
+212.192.193.218 1 1 266 20230911110417
+167.94.146.53 1 2 2932 20230922155717
+155.138.223.134 1 1 358 20230920133219
+139.59.36.218 1 1 358 20230920010908
+34.219.62.25 1 1 358 20230923152208
+34.214.200.44 2 2 716 20230921151327
+3.234.140.90 1 1 358 20230917162143
+198.235.24.32 1 1 612 20230901103236
+54.245.46.151 1 1 358 20230909121641
+159.65.36.223 1 1 358 20230922020727
+161.35.112.62 1 1 12219 20230918013551
+34.106.243.69 2 2 1224 20230913162736
+213.189.216.27 1 1 358 20230918230512
+34.214.183.241 1 1 358 20230901142008
+20.29.217.202 3 7 602189 20230927092746
+205.210.31.242 1 1 612 20230922150644
+35.86.98.44 1 1 358 20230919125544
+167.248.133.186 2 3 15151 20230921214008
+87.236.176.188 1 1 358 20230925021339
+205.210.31.176 1 1 612 20230912085648
+94.247.172.129 1 1 358 20230910124041
+65.154.226.168 3 6 599220 20230912102933
+5.133.192.105 1 2 2932 20230902132256
+35.166.64.64 1 1 358 20230924154630
+54.191.49.58 1 1 358 20230928143640
+172.173.91.158 1 1 612 20230905164903
+18.237.115.110 1 1 358 20230906121310
+208.167.245.136 1 1 358 20230929082627
+54.244.141.42 1 1 358 20230926150936
+36.99.136.129 1 2 1763 20230911102802
+159.65.235.166 1 1 358 20230904073311
+38.154.172.150 1 1 266 20230925094559
+157.245.242.194 1 1 358 20230911212403
+18.236.169.249 1 1 358 20230926151006
+134.209.95.165 1 1 358 20230915233439
+131.153.142.170 1 1 358 20230921015903
+135.148.195.9 2 3 3787 20230930055745
+199.244.88.224 1 1 358 20230903212353
+87.236.176.168 0 1 2574 
+35.164.3.78 1 1 358 20230921135324
+87.236.176.10 1 1 358 20230920225520
+183.136.225.44 2 3 4041 20230907234801
+62.122.184.194 3 3 4965 20230911080239
+34.211.171.41 1 1 358 20230918142322
+3.87.239.132 2 2 358 20230925131201
+198.235.24.35 1 1 612 20230927112308
+216.251.130.74 2 2 927 20230916223057
+45.92.1.8 1 1 358 20230912173157
+198.235.24.70 1 1 612 20230915022028
+18.246.59.19 1 1 358 20230921135401
+130.255.166.142 1 1 358 20230930224342
+107.172.21.161 1 1 358 20230905165425
+20.235.94.183 1 1 358 20230909185404
+167.248.133.185 1 2 2932 20230912025832
+172.58.250.128 1 1 1230 20230928034348
+44.205.14.193 1 87 12169327 20230912102936
+178.33.107.250 1 1 358 20230925042325
+167.94.146.59 1 1 12219 20230923155125
+54.203.10.92 1 1 358 20230903132450
+40.94.31.33 1 4 598596 20230927060752
+198.235.24.2 1 1 612 20230919050904
+128.199.54.185 1 1 358 20230925234814
+43.231.235.32 2 2 716 20230919030028
+87.236.176.242 1 1 358 20230917190103
+35.93.156.189 2 2 716 20230909173744
+40.94.25.90 0 1 2574 
+192.71.126.53 1 1 358 20230911231142
+54.245.74.218 1 1 358 20230902131051
+137.184.89.81 1 1 358 20230907020226
+167.94.145.58 1 2 2932 20230915094044
+172.56.71.131 2 5 2457858 20230928091529
+34.220.230.78 1 1 358 20230902130930
+38.242.250.246 1 1 358 20230926013423
+54.184.77.238 1 1 358 20230926150957
+35.171.144.152 3 3 1836 20230918092623
+52.89.9.111 2 2 716 20230922160221
+146.190.227.52 1 1 358 20230929022539
+143.198.235.221 1 1 12226 20230904014952
+18.222.212.101 1 1 12216 20230913072056
+167.248.133.189 2 4 5864 20230922151242
+159.223.212.82 1 1 358 20230927233549
+135.148.195.7 1 1 358 20230924021810
+159.89.123.83 1 1 358 20230903234322
+36.99.136.137 1 2 2932 20230911102759
+163.172.141.136 2 3 1714 20230905084128
+35.160.251.253 1 1 358 20230928143630
+174.203.245.169 0 1 930928 
+20.12.210.60 1 1 612 20230920150446
+18.236.214.209 2 2 716 20230920144840
+178.136.243.144 1 1 612 20230901081217
+198.235.24.65 1 1 612 20230923003431
+80.248.225.154 1 1 358 20230918054837
+198.235.24.121 1 1 612 20230916101951
+51.89.22.139 1 1 0 20230901060329
+52.25.139.117 1 1 358 20230909121702
+104.192.7.188 1 1 358 20230910120404
+34.221.216.176 1 1 358 20230921135436
+134.122.46.121 1 1 358 20230908012546
+35.86.221.12 2 5 598862 20230901145529
+18.237.45.129 1 1 358 20230901142047
+35.92.239.156 1 1 358 20230903131011
+42.83.147.56 1 1 358 20230913152757
+135.148.195.14 1 1 855 20230918164112
+135.148.195.5 1 1 855 20230924021816
+159.203.88.198 1 1 358 20230924000459
+198.235.24.161 1 1 37927 20230905134551
+147.139.137.156 2 3 3787 20230925182027
+162.248.128.226 1 5 1068359 20230927151126
+18.237.39.148 1 1 358 20230922155341
+135.148.195.12 1 1 855 20230913184431
+35.90.179.123 1 1 358 20230921135326
+141.98.252.161 1 1 358 20230919135353
+87.236.176.174 0 1 2574 
+137.226.113.44 2 2 716 20230928212659
+18.237.181.5 1 1 358 20230919125535
+34.211.142.142 1 1 358 20230922155337
+205.210.31.251 1 1 612 20230927124114
+183.136.225.46 1 1 358 20230902090009
+193.32.87.41 1 1 612 20230918161048
+18.116.45.107 1 1 358 20230923091756
+185.145.245.42 1 6 61970 20230909091747
+40.94.31.84 1 1 358 20230927060748
+13.89.72.109 1 1 612 20230908000946
+192.42.116.22 1 1 358 20230910075405
+20.124.214.99 2 2 716 20230908000143
+142.93.182.90 1 1 358 20230926003822
+149.56.150.158 3 3 1836 20230923132508
+35.89.73.110 1 1 358 20230901181714
+65.154.226.169 1 1 358 20230907113448
+35.91.101.38 1 1 358 20230909121636
+212.47.252.158 2 2 0 20230901235622
+185.195.24.62 2 2 612 20230903165746
+205.210.31.98 1 1 612 20230922193600
+144.91.106.14 2 2 716 20230903234341
+205.210.31.77 1 1 612 20230901110016
+93.158.90.162 1 1 358 20230905085129
+149.56.150.64 2 5 598862 20230923132527
+162.142.125.216 2 4 5864 20230919115045
+147.185.243.27 2 2 716 20230921043107
+54.190.109.83 1 1 358 20230909121706
+5.133.192.138 1 2 2932 20230912194559
+3.138.126.97 2 5 598862 20230925233159
+198.235.24.39 1 1 612 20230929112501
+18.236.197.195 1 1 358 20230909121631
+174.238.115.147 0 3 597935 
+117.133.190.129 1 1 358 20230903230616
+54.202.66.4 1 1 358 20230926150932
+199.244.88.223 1 1 358 20230923132052
+198.235.24.224 1 1 612 20230906045902
+52.36.234.48 1 1 358 20230928143700
+54.224.6.43 2 2 716 20230922030024
+42.83.147.55 3 3 1074 20230906174701
+103.67.163.79 1 1 358 20230914092711
+172.59.105.7 1 3 156660 20230918195453
+174.245.88.156 3 12 1855157 20230921133447
+35.90.175.91 1 1 358 20230903130916
+167.94.145.53 1 1 12218 20230923155027
+164.90.225.148 1 1 358 20230915045155
+188.170.77.159 1 1 358 20230927005701
+141.98.255.149 1 1 358 20230917140207
+198.235.24.231 2 2 1224 20230929221156
+172.59.105.253 3 13 1857731 20230918195055
+205.210.31.74 1 1 612 20230911141953
+147.182.148.233 1 1 358 20230906003630
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20230901 21 37 3353881 15
+20230902 15 18 50661 14
+20230903 23 120 15710065 17
+20230904 11 17 1700916 7
+20230905 11 21 1896658 8
+20230906 19 25 1010681 12
+20230907 23 134 20700433 12
+20230908 17 127 10343206 8
+20230909 16 114 14087394 12
+20230910 8 9 5438 8
+20230911 13 17 17834 11
+20230912 12 100 12178921 12
+20230913 14 107 14049201 10
+20230914 10 103 14035250 7
+20230915 6 7 4976 6
+20230916 6 6 2613 5
+20230917 3 4 3648 3
+20230918 55 574 78698472 23
+20230919 27 142 12740207 15
+20230920 13 24 1864901 8
+20230921 38 90 10153075 21
+20230922 28 234 31639723 17
+20230923 21 30 800338 16
+20230924 9 11 8867 9
+20230925 30 267 39278776 16
+20230926 29 405 58018251 17
+20230927 18 131 18148754 13
+20230928 12 105 16887477 9
+20230929 6 6 2910 6
+20230930 7 14 1201961 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+2mn-5mn 7
+5mn-15mn 5
+15mn-30mn 2
+0s-30s 311
+30mn-1h 4
+30s-2mn 13
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 347 338270 310 262
+/html/main.html 80 57527 21 29
+/html/property.html 40 49200 4 14
+/html/photographs.html 23 25599 3 15
+/html/manual.html 18 16218 3 13
+/html/contact.html 13 18695 1 9
+END_SIDER

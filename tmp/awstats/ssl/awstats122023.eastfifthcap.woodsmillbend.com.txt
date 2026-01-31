@@ -1,0 +1,467 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202312 will be lost/reset.
+# Last config file used to build this data file was /home/k2r1om8prsxd/tmp/awstats/ssl/awstats.eastfifthcap.woodsmillbend.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2035                
+POS_TIME 2707                
+POS_VISITOR 9526                
+POS_DAY 11344               
+POS_DOMAIN 3303                
+POS_LOGIN 3681                
+POS_ROBOT 3836                
+POS_WORMS 4236                
+POS_EMAILSENDER 4367                
+POS_EMAILRECEIVER 4510                
+POS_SESSION 11495               
+POS_SIDER 11642               
+POS_FILETYPES 4645                
+POS_DOWNLOADS 4911                
+POS_OS 4995                
+POS_BROWSER 5410                
+POS_SCREENSIZE 7027                
+POS_UNKNOWNREFERER 7101                
+POS_UNKNOWNREFERERBROWSER 7780                
+POS_ORIGIN 7937                
+POS_SEREFERRALS 8073                
+POS_PAGEREFS 8235                
+POS_SEARCHWORDS 8804                
+POS_KEYWORDS 8956                
+POS_MISC 2371                
+POS_ERRORS 9015                
+POS_CLUSTER 3537                
+POS_SIDER_404 9123                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240101062703 1 0 13752998548010
+FirstTime 20231217190958
+LastTime 20231231104636
+LastUpdate 20240102052259 1 0 0 0 0
+TotalVisits 42                  
+TotalUnique 42                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 45                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 5 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 23 235031 3 6 12384
+1 1 1 12185 5 8 12276
+2 0 0 0 2 3 0
+3 0 0 0 8 10 52
+4 0 0 0 0 0 0
+5 2 25 270797 6 14 38520
+6 1 1 12189 5 6 0
+7 1 3 36608 5 9 104
+8 1 1 12198 1 2 0
+9 0 0 0 8 9 0
+10 1 1 12204 9 9 0
+11 2 13 135824 12 13 37910
+12 0 0 0 2 2 52
+13 1 11 111426 5 7 148
+14 0 0 0 1 1 0
+15 4 14 121821 4 4 52
+16 0 0 0 4 5 0
+17 0 0 0 8 10 0
+18 0 0 0 0 0 0
+19 59 80 886388 28 34 12621
+20 0 0 0 23 23 85742
+21 90 167 4487978 10 15 112463
+22 1 1 12191 0 1 52
+23 0 0 0 7 8 52
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+us 143 293 5705751
+de 7 17 183910
+il 5 15 134009
+be 2 2 24374
+gb 2 3 81720
+se 1 1 37713
+ca 1 2 24396
+ru 1 1 12198
+jp 1 2 43917
+au 1 2 43327
+in 1 2 43327
+id 1 1 12198
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+Go\-http\-client/ 10 109707 20231224201227 0
+(firefox/)([0-9]\.|[0-1][0]\.) 4 37425 20231219053850 0
+unknown 2 78 20231218013828 2
+crawl 1 843 20231219053739 0
+Jigsaw/ 1 12197 20231219053759 0
+no_user_agent 1 37710 20231229115002 0
+Konqueror/ 1 12205 20231217191043 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 16 269664 0 0
+js 67 692154 0 0
+html 88 1415346 0 0
+woff2 3 168224 0 0
+ttf 13 767104 0 0
+png 52 40233 0 0
+eot 26 1149212 0 0
+txt 1 12207 0 0
+svg 39 895254 0 0
+woff 34 913040 0 0
+Unknown 2 24402 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/.well-known/security.txt 1 0 12207
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 25
+androidnougat 3 0
+android10 5 0
+macosx10 1 0
+androidcupcake 1 0
+linuxubuntu 2 0
+macosx15 53 48
+android 15 3
+androidjellybean 1 0
+j2me 1 0
+macosx9 1 0
+Unknown 8 4
+macosx14 1 1
+androidoreo 4 0
+macosx 4 1
+ios_ipad 1 0
+win10 145 79
+win8.1 1 0
+win7 3 1
+macosx13 3 2
+linux 38 14
+winlong 1 0
+bsdnetbsd 1 0
+ios_iphone 44 13
+androidkitkat 2 0
+bsdopenbsd 2 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 77
+chrome75.0.3770.90 1 1
+chrome98.0.4758.87 1 0
+chrome10.0.601.0 1 0
+chrome75.0.3770.101 1 0
+sonyericsson 1 0
+chrome30.0.1599.103 1 0
+msie11.0 1 0
+chrome83.0.4103.61 2 1
+safari8.0 1 0
+chrome84.0.4147.89 1 1
+msie6.0 1 0
+chrome76.0.3781.6 2 1
+chrome76.0.3809.89 2 0
+chrome120.0.6099.109 14 4
+chrome36.0.1985.125 1 0
+chrome86.0.4240.111 84 56
+chrome99.0.4844.83 1 0
+chrome52.0.2743.116 1 0
+chrome91.0.4472.77 1 0
+safari15.2 1 0
+chrome101.0.4951.54 1 0
+chrome114.0.0.0 14 4
+nokia 1 0
+chrome34.0.1847.137 1 1
+chrome108.0.0.0 2 2
+chrome109.0.5414.46 14 4
+chrome110.0.0.0 14 4
+safari7.0.6 1 0
+chrome99.0.4844.82 1 0
+safari7.0 1 0
+chrome79.0.3945.130 1 1
+opera86.0.4363.50 1 1
+iphone 10 5
+chrome98.0.4758.136 1 0
+firefox79.0 2 1
+safari13.2.22 2 1
+safari1.2.2 2 0
+mozilla 4 2
+firefox52.9 1 1
+chrome75.0.3770.145 1 1
+firefox32.0 1 0
+chrome10.0.613.0 1 0
+chrome111.0.5563.65 1 1
+chrome94.0.4606.85 2 0
+firefox55.0 1 0
+chrome100.0.4896.88 2 0
+chrome91.0.4472.114 1 0
+chrome100.0.4896.79 1 0
+chrome96.0.4664.104 1 0
+chrome98.0.4758.109 1 1
+chrome80.0.3987.132 2 1
+chrome101.0.4951.61 5 0
+chrome86.0.4240.75 1 0
+chrome101.0.4951.41 3 0
+opera12.14 1 0
+safari 30 8
+safari4.0.5 1 0
+chrome103.0.5060.114 3 1
+chrome115.0.5777.205 2 1
+chrome98.0.4758.102 14 4
+chrome73.0.3683.86 1 0
+chrome97.0.4692.71 1 1
+netscape5.0 1 1
+chrome120.0.0.0 1 1
+edge12 1 1
+chrome100.0.4896.143 1 0
+safari11.0 2 0
+chrome45.0.2454.94 1 0
+android 6 2
+chrome58.0.3029.110 1 0
+chrome116.0.0.0 48 48
+safari10.1.0.2342 1 0
+firefox40.0 1 1
+chrome100.0.4896.127 3 0
+safari15.5 1 0
+chrome85.0.4183.101 1 0
+Unknown 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Python/3.9_aiohttp/3.9.1 20231217191120
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20231219062044
+Mozilla/5.0_(compatible;_alexa_site_audit/1.0;__http://www.alexa.com/help/webmasters;_) 20231218004326
+SonyEricssonW660i/R6AD_Browser/NetFront/3.3_Profile/MIDP-2.0_Configuration/CLDC-1.1 20231218130212
+NokiaN73-1/3.0649.0.0.1_Series60/3.0_Profile/MIDP2.0_Configuration/CLDC-1.1 20231218004236
+Mozilla/5.0_(BB10;_Touch)_AppleWebKit/537.10__(KHTML,_like_Gecko)_Version/10.1.0.2342_Mobile_Safari/537.10_ 20231218114256
+python-httpx/0.25.2 20231217210818
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+python-httpx/0.25.2 20231217210818
+Python/3.9_aiohttp/3.9.1 20231217191120
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 75 143
+From1 1 1
+From2 1 1
+From3 89 196
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_ie 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+https://cpanel.eastfifthcap.com/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/open_sans.min.css 61 71
+https://cpanel.eastfifthcap.com/cPanel_magic_revision_1701716494/unprotected/cpanel/style_v2_optimized.css 15 79
+https://cpanel.eastfifthcap.com 12 36
+http://cpanel.eastfifthcap.com 1 1
+https://cpanel.eastfifthcap.com/cPanel_magic_revision_1602781915/unprotected/cpanel/images/cpanel-logo.svg 0 9
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 130 0
+401 28 1456
+308 6 579
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 4
+/.well-known/security.txt 1 -
+/robots.txt 10 -
+/static/admin/javascript/hetong.js 1 -
+/ 118 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 45
+198.240.65.92 56 84 3396991 20231217214642
+104.164.173.51 47 47 581775 20231217191003
+212.143.94.254 5 15 134009 20231217214454
+5.181.234.133 4 14 121821 20231217214358
+54.66.245.129 4 14 121817 20231217215535
+206.204.61.36 4 14 121817 20231217192329
+38.132.193.70 4 14 121825 20231217214516
+206.204.24.100 4 14 121820 20231217192447
+45.91.20.11 4 14 121821 20231218154256
+90.187.238.157 2 2 49900 20231217214425
+52.90.67.56 1 1 12191 20231217210818
+38.95.13.133 1 2 43327 20231217214703
+65.21.65.198 1 1 12189 20231217191120
+51.178.81.195 1 2 43718 20231217214702
+103.108.94.174 1 2 43327 20231217215635
+15.161.230.183 1 1 37924 20231217214531
+103.1.213.216 1 2 43327 20231217215635
+54.66.55.193 1 1 12190 20231217215205
+164.90.241.135 1 2 43619 20231217215634
+110.138.86.83 1 1 12198 20231219085223
+34.122.89.224 1 1 12190 20231217195752
+54.161.99.216 1 1 12204 20231231104636
+172.255.125.170 1 2 43327 20231217214702
+16.171.195.77 1 12 123625 20231218114236
+106.161.65.206 1 2 43917 20231217215634
+54.38.78.189 0 1 12207 
+47.88.94.159 0 1 12211 
+146.190.197.169 1 2 43327 20231217215633
+161.35.246.138 1 2 43517 20231217214702
+146.70.107.15 1 1 38002 20231217214703
+198.105.111.126 1 1 12199 20231219112258
+47.88.90.156 1 1 12189 20231218073758
+81.95.5.38 1 1 12189 20231217214551
+54.241.93.188 1 22 222839 20231218004221
+87.236.176.9 1 1 12185 20231219015454
+44.203.234.151 1 24 258609 20231219053724
+167.71.243.219 1 1 12192 20231231002124
+154.28.229.193 1 1 12192 20231217190958
+47.251.11.3 0 1 12208 
+193.143.1.139 1 1 12198 20231217191110
+45.84.139.189 1 1 12191 20231217222543
+46.246.122.51 1 1 37713 20231217214531
+13.201.19.218 1 11 111426 20231218130159
+142.93.158.116 1 1 12188 20231219054239
+87.236.176.63 1 1 12189 20231219062044
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20231217 150 248 5386557 29
+20231218 8 62 616319 5
+20231219 6 29 319568 6
+20231231 2 2 24396 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 42
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 45
+/ 87 1403148 39 31
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.woff 8 180307 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.woff 8 178497 0 4
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.woff 8 182340 0 3
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Italic-webfont.eot 2 40530 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Light-webfont.eot 2 39028 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-SemiboldItalic-webfont.eot 2 41924 0 0
+/cPanel_magic_revision_1656537159/unprotected/webfonts/fa-brands-400.eot 2 268588 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-BoldItalic-webfont.eot 2 40266 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.eot 2 39088 0 0
+/cPanel_magic_revision_1656537159/unprotected/webfonts/fa-regular-400.eot 2 68068 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-ExtraBold-webfont.eot 2 41710 0 0
+/cPanel_magic_revision_1656537159/unprotected/webfonts/fa-solid-900.eot 2 406060 0 0
+/.git/config 2 24402 2 2
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-LightItalic-webfont.eot 2 41070 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.eot 2 39672 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-ExtraBoldItalic-webfont.eot 2 43152 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.eot 2 40056 0 0
+/cPanel_magic_revision_1656537159/unprotected/webfonts/fa-regular-400.woff2 1 13224 0 0
+/cPanel_magic_revision_1656537159/unprotected/webfonts/fa-solid-900.woff 1 101652 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-BoldItalic-webfont.woff 1 23048 0 0
+/cPanel_magic_revision_1656537159/unprotected/webfonts/fa-regular-400.woff 1 16276 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.ttf 1 39476 0 0
+/.git/ 1 12198 1 1
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Italic-webfont.woff 1 23188 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-LightItalic-webfont.ttf 1 39956 0 0
+/cPanel_magic_revision_1656537159/unprotected/webfonts/fa-solid-900.woff2 1 78260 0 0
+/cPanel_magic_revision_1656537159/unprotected/webfonts/fa-regular-400.ttf 1 33736 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-SemiboldItalic-webfont.ttf 1 40252 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-ExtraBoldItalic-webfont.woff 1 24568 0 0
+/cPanel_magic_revision_1656537159/unprotected/webfonts/fa-solid-900.ttf 1 202744 0 1
+/cPanel_magic_revision_1656537159/unprotected/webfonts/fa-brands-400.woff2 1 76740 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-ExtraBold-webfont.woff 1 23764 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-LightItalic-webfont.woff 1 23400 0 0
+/cPanel_magic_revision_1656537159/unprotected/webfonts/fa-brands-400.woff 1 89988 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Light-webfont.ttf 1 37336 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-SemiboldItalic-webfont.woff 1 23764 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Light-webfont.woff 1 22248 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.ttf 1 38232 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Italic-webfont.ttf 1 38412 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.ttf 1 38452 0 0
+/cPanel_magic_revision_1656537159/unprotected/webfonts/fa-brands-400.ttf 1 133988 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-ExtraBold-webfont.ttf 1 42024 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-ExtraBoldItalic-webfont.ttf 1 43420 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-BoldItalic-webfont.ttf 1 39076 0 0
+END_SIDER

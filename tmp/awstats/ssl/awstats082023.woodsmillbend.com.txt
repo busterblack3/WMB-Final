@@ -1,0 +1,850 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202308 will be lost/reset.
+# Last config file used to build this data file was /home/k2r1om8prsxd/tmp/awstats/ssl/awstats.woodsmillbend.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2704                
+POS_VISITOR 17791               
+POS_DAY 26664               
+POS_DOMAIN 3505                
+POS_LOGIN 3944                
+POS_ROBOT 4099                
+POS_WORMS 4656                
+POS_EMAILSENDER 4787                
+POS_EMAILRECEIVER 4930                
+POS_SESSION 27104               
+POS_SIDER 27311               
+POS_FILETYPES 5065                
+POS_DOWNLOADS 5315                
+POS_OS 5406                
+POS_BROWSER 5786                
+POS_SCREENSIZE 7520                
+POS_UNKNOWNREFERER 7594                
+POS_UNKNOWNREFERERBROWSER 8496                
+POS_ORIGIN 9048                
+POS_SEREFERRALS 9189                
+POS_PAGEREFS 9374                
+POS_SEARCHWORDS 10181               
+POS_KEYWORDS 10333               
+POS_MISC 2368                
+POS_ERRORS 10392               
+POS_CLUSTER 3800                
+POS_SIDER_404 10509               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230901001402 223 60907 10677342661721
+FirstTime 20230818095832
+LastTime 20230831223632
+LastUpdate 20230901052016 223 0 222 0 0
+TotalVisits 264                 
+TotalUnique 226                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 231                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 3 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 25 28 51148 8 29 31249
+1 9 13 8809 6 11 11450
+2 0 0 0 5 5 6848
+3 14 14 11542 3 6 7618
+4 9 95 10854039 17 26 27803
+5 16 116 14300447 11 33 625090
+6 38 587 54376666 25 47 61391
+7 37 277 37285475 9 31 1046233
+8 14 119 16244708 35 45 66348
+9 21 33 1918259 12 19 8866
+10 33 184 9077489 21 33 69933
+11 46 321 25792989 49 59 77188
+12 151 633 55837195 61 74 86420
+13 39 68 4623236 42 59 88285
+14 33 138 17355177 10 23 31330
+15 38 277 11641508 8 21 18391
+16 1 1 818 6 15 16941
+17 18 118 16347665 7 21 659454
+18 18 127 5052855 37 43 59754
+19 24 243 33205746 14 25 28420
+20 21 319 29209453 9 24 1203265
+21 13 108 15091717 9 11 7754
+22 12 12 28679 16 24 635975
+23 7 8 3777 6 13 13679
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 17
+us 533 3717 355741935
+fr 24 24 18044
+gb 16 19 135271
+cn 9 9 2870
+be 8 8 26450
+ca 8 11 56718
+de 7 7 2603
+ru 7 8 50999
+it 6 6 10022
+nl 5 5 2694
+mk 4 15 2252908
+ro 3 3 4563
+se 3 3 711
+bg 1 1 818
+in 1 1 12220
+eu 1 1 237
+sa 1 1 334
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+Googlebot/ 38 34210 20230830200801 0
+bingbot/ 18 41670 20230830060523 0
+Go\-http\-client/ 15 9839 20230831132852 0
+facebookexternalhit/ 11 1201711 20230830205736 0
+no_user_agent 10 81108 20230827195532 0
+Lightspeed 5 598744 20230826175503 0
+bot[\s_+:,\.\;\/\\-] 4 865 20230831124822 0
+Googlebot\-Image/ 2 1188880 20230830052925 0
+scanner 1 237 20230823005331 0
+Barkrowler 1 237 20230825070021 0
+crawl 1 237 20230819221121 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+jpg 2989 342779074 0 0
+Unknown 2 25111 0 0
+png 13 12162 0 0
+pdf 14 13032992 0 0
+env 1 12224 0 0
+css 87 272009 0 0
+woff 6 135184 0 0
+js 91 80116 0 0
+svg 8 29532 0 0
+html 628 1940993 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/pdf/wmb%20user%20manual.pdf 14 0 13032992
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 22
+android10 2 2
+android 15 12
+androidmarshmallow 2 2
+androidnougat 2 2
+macosx6 12 10
+macosx11 6 6
+linux 98 83
+macosx 1 1
+Unknown 64 59
+unix 6 5
+androidlollipop 1 1
+win10 383 73
+linuxubuntu 34 30
+macosx15 1572 118
+androidoreo 1 1
+win8 3 3
+win7 17 16
+winxp 79 79
+win8.1 2 2
+ios_iphone 1534 127
+winlong 4 4
+macosx9 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 81
+chrome11.0.694.0 6 5
+chrome115.0.5790.114 1 1
+Unknown 30 28
+chrome95.0.4638.54 2 2
+chrome83.0.4103.97 32 32
+chrome89.0.4389.114 1 1
+chrome77.0.3865.90 1 1
+chrome78.0.3904.108 2 2
+chrome66.0.3359.181 7 7
+chrome106.0.0.0 4 4
+safari16.1 115 9
+chrome105.0.0.0 5 5
+firefox66.0 1 1
+chrome74.0.3729.169 3 3
+chrome103.0.9999.0 1 1
+safari16.4 2 1
+chrome103.0.5060.114 12 10
+firefox83.0 5 5
+chrome42.0.2311.90 1 1
+chrome91.0.4472.114 1 1
+safari14.1.2 13 4
+safari16.5 1 1
+chrome83.0.4103.61 1 1
+firefox67.0 1 1
+chrome9.0.579.0 6 5
+chrome101.0.4951.41 1 1
+chrome110.0.5481.100 4 2
+chrome4.0.213.1 3 3
+chrome61.0.3163.128 1 1
+chrome84.0.4147.105 3 2
+chrome73.0.3683.90 1 1
+firefox21.0.1 1 1
+chrome111.0.0.0 17 5
+firefox28.0 4 4
+firefox63.0 1 1
+chrome112.0.0.0 2 2
+chrome33.0.1750.152 1 1
+safari14.0.3 1 1
+chrome103.0.0.0 3 3
+netscape5.0 8 8
+mozilla 26 23
+chrome115.0.5790.170 14 4
+chrome110.0.0.0 6 6
+chrome102.0.5005.63 2 2
+chrome79.0.3945.79 14 4
+safari 926 71
+iphone 95 6
+chrome108.0.0.0 15 15
+safari15.6.1 340 14
+safari13.0.3 3 3
+chrome56.0.2924.87 1 1
+chrome6.0.414.0 6 5
+chrome55.0.2883.87 1 1
+chrome63.0.3239.132 3 3
+firefox102.0 2 2
+safari16.6 138 22
+chrome4.0.212.0 6 5
+chrome116.0.0.0 1018 61
+chrome115.0.0.0 544 49
+chrome104.0.5112.81 2 2
+chrome2.0.172.43 79 79
+firefox112.0 2 1
+chrome27.0.1453.116 6 5
+chrome42.0.2311.152 1 1
+firefox108.0 1 1
+firefox114.0 4 1
+chrome60.0.3112.107 2 2
+chrome114.0.0.0 112 13
+firefox113.0 4 3
+chrome10.0.613.0 6 5
+firefox115.0 24 24
+chrome61.0.3163.100 6 6
+chrome4.0.212.1 6 5
+chrome80.0.3987.162 1 1
+chrome52.0.2915.98 2 2
+chrome113.0.0.0 106 11
+safari14.1.1 1 1
+chrome65.0.3325.181 3 3
+chrome102.0.0.0 1 1
+chrome11.0.672.2 3 3
+chrome103.0.5060.66 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+Ruby 20230818160221
+axios/1.4.0 20230819005737
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20230830113543
+BDFetch 20230820103357
+cortex/1.0 20230826175542
+Mozilla/5.0_zgrab/0.x 20230818122025
+python-requests/2.31.0 20230831141916
+Mozilla/5.0_researchscan.comsys.rwth-aachen.de 20230831212534
+Mozilla/5.0_(compatible;_Dataprovider.com) 20230822170502
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230829182350
+undici 20230828210512
+panscient.com 20230825034508
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20230824215903
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+axios/1.4.0 20230819005737
+Ruby 20230818160221
+python-requests/2.31.0 20230831141916
+cortex/1.0 20230826175542
+BDFetch 20230820103357
+undici 20230828210512
+panscient.com 20230825034508
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230829182350
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 399 410
+From1 3 3
+From2 3 3
+From3 21 48
+From4 211 3375
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com_hk 1 1
+www_google_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 11
+https://cpanel.woodsmillbend.com 10 16
+https://cpanel.woodsmillbend.com/cPanel_magic_revision_1616517441/unprotected/cpanel/fonts/open_sans/open_sans.min.css 6 6
+http://mail.woodsmillbend.com 1 1
+http://cpanel.woodsmillbend.com 1 1
+https://p3plzcpnl459190.prod.phx3.secureserver.net:2083 1 1
+https://l.instagram.com 1 1
+http://173.201.183.5:80 1 1
+https://mail.woodsmillbend.com 0 2
+https://cpanel.woodsmillbend.com/cPanel_magic_revision_1668629273/unprotected/cpanel/style_v2_optimized.css 0 14
+https://mail.woodsmillbend.com/css/styles.css 0 1
+https://cpanel.woodsmillbend.com/cPanel_magic_revision_1602781915/unprotected/cpanel/images/cpanel-logo.svg 0 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 430 666006
+206 4 1027258
+401 43 1995
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 191
+/feed/ 1 -
+/debug/default/view 3 -
+/wp-admin/maint/moon.php 1 http://woodsmillbend.com//wp-admin/maint/moon.php
+/site 2 www.google.com
+/2019 2 www.google.com
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/css/install.php 1 http://woodsmillbend.com//css/install.php
+/project/.env 1 -
+/new 2 www.google.com
+/wp/ 2 http://woodsmillbend.com/wp/
+/wp 2 www.google.com
+/property.html 1 -
+/wp-json/wp/v2/users 1 -
+/inputs.php 2 www.google.com
+/framework/.env 1 -
+/phpinfo/phpinfo.php 1 -
+/old/ 2 http://woodsmillbend.com/old/
+/login.action 2 -
+/photographs.html 1 -
+/temp/ 1 -
+/store 2 www.google.com
+/s/53e2338313e2130323e2337313/_/ 2 -
+/.well-known/acme-challenge/install.php 1 http://woodsmillbend.com//.well-known/acme-challenge/install.php
+/_all_dbs 2 -
+//test/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/woocommerce-payments/readme.txt 3 -
+/style.php 1 -
+/New 2 www.google.com
+/_ignition/health-check/ 1 http://woodsmillbend.com/_ignition/health-check/
+//wordpress/wp-includes/wlwmanifest.xml 2 -
+/server-status 2 -
+/v2/_catalog 2 -
+/.well-known/ 1 binance.com
+/phone/index.html 7 https://www.google.com/
+/.env.dev 1 -
+/.well-known/security.txt 2 -
+/home 2 www.google.com
+/wp-includes/install.php 1 http://woodsmillbend.com//wp-includes/install.php
+/robots.txt 40 -
+/humans.txt 3 http://www.woodsmillbend.com/humans.txt
+/blog/ 2 http://woodsmillbend.com/blog/
+/manual.html 1 https://woodsmillbend.com/
+//wp-includes/wlwmanifest.xml 1 -
+/WordPress 2 www.google.com
+/BLOG 2 www.google.com
+/forum 2 www.google.com
+/2020 2 www.google.com
+/master/.env 1 -
+/wp-admin/js/about.php7 1 http://woodsmillbend.com//wp-admin/js/about.php7
+/core/.env 1 -
+//wp-content/plugins/core-plugin/include.php 1 http://www.google.com.hk
+/cgi-bin/cgi-bin/about.php 1 http://woodsmillbend.com//cgi-bin/cgi-bin/about.php
+//shop/wp-includes/wlwmanifest.xml 2 -
+/sitemap.xml 15 -
+/phpinfo.php 1 -
+/apple-touch-icon-precomposed.png 10 -
+/env/production/.env 1 -
+/wp-content/plugins/essential-addons-for-elementor-lite/readme.txt 2 www.google.com
+/system/.env 1 -
+/2017 2 www.google.com
+//web/wp-includes/wlwmanifest.xml 2 -
+/ads.txt 4 http://www.woodsmillbend.com/ads.txt
+/cgi-bin/cgi-bin/about.php7 1 http://woodsmillbend.com//cgi-bin/cgi-bin/about.php7
+/wp-admin/js/about.php 1 http://woodsmillbend.com//wp-admin/js/about.php
+/DEMO 2 www.google.com
+/wordpress/ 2 http://woodsmillbend.com/wordpress/
+/.env.sample 1 -
+/app/.env 1 -
+/FORUM 2 www.google.com
+/html/html/manual.html 3 https://woodsmillbend.com/html/property.html
+/blog 2 www.google.com
+/.git/ 2 -
+/js/html/manual.html 1 -
+/misc/ajax.js 5 -
+/server/.env 1 -
+/wp-content/plugins/Cache/dropdown.php 1 http://woodsmillbend.com//wp-content/plugins/Cache/dropdown.php
+//wp/wp-includes/wlwmanifest.xml 2 -
+/view-source: 5 -
+/backup 2 www.google.com
+/wp-touch.js 1 woodsmillbend.com
+/2013 2 www.google.com
+/old 2 www.google.com
+/wp-content/patior/ 1 http://woodsmillbend.com//wp-content/patior/
+/wp-admin/dropdown.php 1 http://woodsmillbend.com//wp-admin/dropdown.php
+/WORDPRESS 2 www.google.com
+/wp-includes/js/tinymce/plugins/compat3x/css/index.php 1 http://woodsmillbend.com//wp-includes/js/tinymce/plugins/compat3x/css/index.php
+/author-sitemap.xml 1 -
+/2012 2 www.google.com
+/html/index.html 1 https://woodsmillbend.com/html/main.html
+/SHOP 2 www.google.com
+//wp-includes/ID3/license.txt 1 -
+/2018 2 www.google.com
+//xmlrpc.php 2 -
+/.vscode/sftp.json 3 -
+/new/ 2 http://woodsmillbend.com/new/
+/development/.env 1 -
+/wp-content/plugins/install.php 1 http://woodsmillbend.com//wp-content/plugins/install.php
+/static/admin/javascript/hetong.js 7 -
+/wp-admin/images/install.php 1 http://woodsmillbend.com//wp-admin/images/install.php
+//2020/wp-includes/wlwmanifest.xml 1 -
+/_profiler/phpinfo 1 -
+/security.txt 2 -
+/test 2 www.google.com
+/Backup 2 www.google.com
+/2015 2 www.google.com
+/api/.env 1 -
+//2021/wp-includes/wlwmanifest.xml 1 -
+/backup/ 2 http://woodsmillbend.com/backup/
+/media/system/js/core.js 2 http://woodsmillbend.com/media/system/js/core.js
+/demo 2 www.google.com
+/contact.html 4 -
+/wp-content/uploads/ 1 http://woodsmillbend.com//wp-content/uploads/
+/administrator/index.php 5 -
+/public/_ignition/health-check/ 1 http://woodsmillbend.com/public/_ignition/health-check/
+/apple-touch-icon-120x120-precomposed.png 6 -
+/2010 2 www.google.com
+/wp-includes/css/buttons.css 3 http://woodsmillbend.com/wp-includes/css/buttons.css
+/xmlrpc.php 2 -
+/OLD/ 1 http://woodsmillbend.com/OLD/
+/wordpress 2 www.google.com
+//2018/wp-includes/wlwmanifest.xml 1 -
+/Woodsmillbend 1 www.google.com
+/info.php 1 -
+/shop 2 www.google.com
+/wp-includes/wlwmanifest.xml 6 -
+/config/.env 1 -
+/2016 2 www.google.com
+/WP 2 www.google.com
+/install.php 1 http://woodsmillbend.com//install.php
+/about 2 -
+/wp-includes/rest-api/about.php 1 http://woodsmillbend.com//wp-includes/rest-api/about.php
+/telescope/requests 2 -
+/wp-json/wp/v2/users/1 2 -
+/wp-admin/css/colors/blue/blue.php 1 www.google.com
+/wp-content/plugins/ 1 http://woodsmillbend.com//wp-content/plugins/
+/sitemaps.xml 2 -
+/wp-login.php 3 http://woodsmillbend.com/wp-login.php
+/.git/config 8 -
+/app.js 1 -
+/2009 2 www.google.com
+/apple-touch-icon.png 10 -
+/Demo 2 www.google.com
+/.DS_Store 2 -
+//sito/wp-includes/wlwmanifest.xml 1 -
+/Blog 2 www.google.com
+/js/manual.html 6 -
+/woodsmillbend 1 www.google.com
+/config.json 2 -
+/wp-content/plugins/ht-mega-for-elementor/assets/css/htbbootstrap.css 1 -
+//blog/wp-includes/wlwmanifest.xml 2 -
+/wp-includes/Text/about.php 1 http://woodsmillbend.com//wp-includes/Text/about.php
+//2019/wp-includes/wlwmanifest.xml 2 -
+/ee.php 1 http://woodsmillbend.com//ee.php
+/wp-content/plugins/core-plugin/include.php 2 www.google.com
+//news/wp-includes/wlwmanifest.xml 1 -
+/laravel/.env 1 -
+/NEW 2 www.google.com
+/protected/.env 1 -
+/wp-content/install.php 1 http://woodsmillbend.com//wp-content/install.php
+/wp-admin/admin-ajax.php 1 http://woodsmillbend.com//wp-admin/admin-ajax.php
+/STORE 2 www.google.com
+/index.php/jk 1 www.google.com
+/admin/.env 1 -
+/BACKUP 2 www.google.com
+/bk/ 1 http://woodsmillbend.com/bk/
+/private/.env 1 -
+/images/woods_mill_bend_main.jpg 1 -
+/dropdown.php 1 http://woodsmillbend.com//dropdown.php
+//website/wp-includes/wlwmanifest.xml 1 -
+/env/local/.env 1 -
+/Public/home/js/check.js 9 -
+/wp-content/dropdown.php 1 http://woodsmillbend.com//wp-content/dropdown.php
+/wp-admin/install.php 2 -
+/cgi-bin/install.php 1 http://woodsmillbend.com//cgi-bin/install.php
+/apple-touch-icon-120x120.png 6 -
+/test/ 2 http://woodsmillbend.com/test/
+/wp-content/themes/twenty/twenty.php 1 http://woodsmillbend.com//wp-content/themes/twenty/twenty.php
+/wp-admin/css/ 1 binance.com
+//wp2/wp-includes/wlwmanifest.xml 1 -
+//feed/ 1 -
+//wp1/wp-includes/wlwmanifest.xml 2 -
+/.aws/credentials 1 -
+/app-ads.txt 1 -
+/.env 13 -
+/../js/scripts.js 1 -
+/wp-cron.php 1 -
+/wp-content/ 1 -
+//site/wp-includes/wlwmanifest.xml 2 -
+//cms/wp-includes/wlwmanifest.xml 2 -
+//media/wp-includes/wlwmanifest.xml 1 -
+/2014 2 www.google.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 231
+76.230.156.179 101 1559 138044181 20230830201044
+154.28.229.160 79 79 980112 20230818122011
+166.194.154.142 21 281 40254040 20230821124849
+154.6.13.151 13 13 11305 20230825034508
+107.77.236.65 13 80 8521061 20230818110740
+165.225.39.79 12 204 15616280 20230831115240
+107.127.49.90 11 115 2945515 20230824071547
+107.115.159.85 10 192 14762920 20230823113618
+24.163.84.167 8 105 15013215 20230821084110
+107.77.235.12 7 19 2392722 20230828100933
+73.131.86.229 7 109 15696448 20230824075134
+199.168.150.161 6 6 1422 20230825225441
+171.67.70.229 6 6 16314 20230818122025
+165.225.33.22 6 102 15469404 20230824140650
+79.137.65.46 6 6 10022 20230823103614
+104.164.173.159 5 6 4866 20230818123510
+65.154.226.167 5 15 121489 20230824140151
+154.28.229.247 5 6 4866 20230818115810
+162.246.155.34 5 14 1856833 20230829074602
+104.164.173.92 5 6 4599 20230819133535
+154.28.229.193 5 6 4866 20230818115811
+205.169.39.212 5 15 133475 20230818122737
+104.164.173.225 5 6 4866 20230818122011
+104.164.173.44 5 6 4866 20230818121855
+154.28.229.225 5 6 4872 20230819005519
+52.25.112.198 1 1 237 20230827145805
+167.248.133.182 1 1 237 20230824135534
+69.63.189.9 0 1 594440 
+51.254.49.108 1 1 334 20230823104735
+34.29.175.194 1 1 12220 20230818115836
+216.131.88.4 1 1 38117 20230818132346
+178.62.12.193 1 1 237 20230821010652
+62.122.184.194 3 3 4695 20230822043944
+54.213.209.237 1 1 334 20230828051338
+199.244.88.224 1 1 818 20230819091619
+143.110.161.44 1 1 237 20230825010952
+146.70.211.10 1 1 624 20230818115800
+173.252.127.14 0 1 787 
+157.90.242.178 1 1 237 20230824095553
+87.236.176.195 1 1 237 20230824215903
+159.223.31.183 1 1 818 20230819055351
+35.89.141.59 1 1 237 20230829152013
+167.248.133.126 1 1 237 20230823234124
+87.236.176.94 1 1 237 20230821155203
+96.232.200.22 4 15 2252976 20230830204136
+167.248.133.124 1 1 12219 20230823220515
+85.209.176.69 1 1 334 20230830124151
+162.142.125.13 1 1 237 20230824153934
+128.199.133.73 1 1 818 20230818222800
+174.247.17.3 1 81 11757266 20230829115004
+172.241.250.182 1 1 37927 20230818132347
+173.252.127.15 0 1 594440 
+172.232.34.243 1 1 237 20230824134603
+146.70.189.10 1 1 624 20230818115800
+64.227.149.7 1 1 237 20230829011032
+52.26.178.17 1 1 358 20230831195457
+47.88.86.63 1 2 24467 20230819000522
+51.254.49.97 1 1 334 20230823104649
+104.164.173.42 3 3 25572 20230818095842
+199.244.88.220 1 1 237 20230828195858
+5.42.65.42 1 1 169 20230826122723
+52.10.50.44 1 1 237 20230828142030
+35.92.37.157 1 1 237 20230819134203
+216.251.130.74 2 4 3916 20230821182859
+185.181.60.189 1 1 237 20230825191345
+156.146.63.154 1 1 38318 20230818132346
+87.236.176.47 1 1 237 20230822001752
+67.207.94.96 1 1 818 20230819005224
+54.213.9.160 1 1 237 20230829151949
+51.158.112.168 4 4 5060 20230826111458
+51.158.103.6 2 3 1596 20230826104139
+198.235.24.200 1 1 334 20230829182350
+100.25.126.64 1 1 334 20230820103357
+162.142.125.215 1 1 237 20230827005841
+47.88.93.234 1 1 818 20230819004651
+69.63.189.116 0 1 594440 
+35.211.201.14 2 3 1976 20230825232011
+104.28.198.245 2 2 2032 20230823204741
+80.190.82.243 2 2 716 20230831141916
+14.29.182.82 1 1 237 20230821080315
+35.92.86.70 1 1 237 20230830143559
+138.197.136.144 1 1 237 20230821062342
+138.68.189.202 1 1 12226 20230820071002
+71.210.11.16 2 143 20395504 20230830060313
+51.75.133.70 2 2 474 20230828211534
+54.37.237.164 4 4 948 20230827074243
+18.236.63.230 1 1 237 20230829152039
+37.187.215.251 1 1 334 20230823095150
+104.248.237.26 1 1 237 20230822065024
+34.208.28.70 1 1 237 20230827212143
+107.127.49.41 3 88 12090167 20230831073012
+34.217.122.75 1 1 237 20230830203559
+137.226.113.44 2 2 595 20230831212534
+185.147.212.18 1 2 43935 20230818132345
+106.119.167.146 1 1 237 20230828042724
+34.254.53.125 3 6 599273 20230818112753
+205.210.31.212 1 1 334 20230825154251
+24.199.68.203 1 2 43544 20230818132346
+62.210.90.176 1 1 237 20230821172026
+35.92.216.228 2 2 474 20230828211025
+37.187.215.252 2 2 3396 20230823114130
+54.149.253.240 1 1 237 20230827145709
+174.216.12.207 3 12 1854050 20230819152959
+149.56.150.115 2 5 598426 20230822170502
+37.187.215.245 1 1 1698 20230823103601
+87.236.176.38 1 1 818 20230819050924
+107.77.236.69 4 16 1783981 20230821131120
+37.187.215.254 1 1 1615 20230819143538
+35.164.241.1 1 1 237 20230830143518
+18.237.18.23 1 1 237 20230828142104
+34.213.60.149 1 1 237 20230827145947
+54.213.223.135 2 2 474 20230826194603
+62.72.29.58 1 1 237 20230820223756
+162.247.74.74 1 1 237 20230824142913
+195.211.77.140 1 1 1963 20230818095832
+62.210.90.177 1 1 237 20230821170101
+42.83.147.54 1 1 237 20230828092544
+35.89.57.199 1 1 358 20230831155839
+135.148.195.13 1 1 237 20230829153916
+166.194.154.70 2 11 4604 20230819051447
+37.187.215.244 1 1 334 20230819121315
+34.220.117.82 1 1 358 20230831155744
+87.236.176.58 1 1 12225 20230819193424
+34.214.180.174 1 1 237 20230826134536
+51.15.233.64 2 2 0 20230825144311
+107.189.10.84 1 1 237 20230823014311
+92.53.12.39 4 15 2252908 20230830072211
+154.47.30.166 1 1 37927 20230818132424
+42.83.147.56 2 2 474 20230821173048
+212.47.248.114 1 1 237 20230826100917
+172.232.50.173 1 1 237 20230821110149
+93.158.91.31 1 1 237 20230823065947
+167.94.146.57 1 1 237 20230821091022
+167.99.178.188 1 1 358 20230831223632
+45.81.39.171 1 1 237 20230830042428
+128.90.128.165 1 1 237 20230819171422
+173.252.127.2 2 3 3517 20230826175508
+62.210.173.78 1 1 237 20230829061318
+107.127.49.70 4 12 5554 20230823154259
+188.165.87.109 1 1 1625 20230819101204
+159.203.69.109 1 1 237 20230819175017
+18.237.148.108 1 1 237 20230828142024
+170.187.206.69 2 2 716 20230831114849
+167.248.133.191 1 1 237 20230830013355
+45.88.97.42 1 1 38218 20230818132347
+87.236.176.204 1 1 12222 20230819064113
+154.28.229.61 3 3 25573 20230818095841
+192.36.24.172 1 1 237 20230829192307
+35.90.137.116 1 1 237 20230829151829
+104.131.6.130 1 1 237 20230829055337
+35.92.179.113 1 1 237 20230830143547
+71.226.96.67 2 8 1197150 20230824174456
+65.154.226.169 1 1 358 20230831114618
+18.208.143.40 3 3 624 20230819005737
+54.244.56.170 1 1 358 20230831155925
+51.254.49.96 1 1 334 20230819141440
+34.221.33.11 1 1 237 20230826134903
+51.254.199.11 2 2 474 20230828010013
+47.88.78.6 1 1 818 20230818222616
+54.245.78.31 1 1 237 20230819134203
+65.108.1.41 1 1 237 20230827072749
+73.162.1.224 4 96 14017877 20230822065116
+54.212.66.10 1 1 237 20230827145858
+67.205.165.191 1 1 169 20230828210512
+144.217.135.238 3 3 1002 20230822170413
+35.167.215.147 1 1 237 20230827145910
+194.26.192.122 2 2 474 20230828005007
+103.216.220.42 1 1 12220 20230818115821
+198.235.24.65 1 1 37927 20230828131143
+15.204.182.106 2 2 474 20230819183122
+176.74.192.85 1 1 237 20230823054943
+167.248.133.189 1 1 237 20230827004402
+52.12.0.96 1 1 237 20230819134137
+162.246.153.55 0 2 3495 
+217.138.194.121 1 2 43835 20230818132346
+44.204.115.49 2 2 789 20230820071641
+47.88.90.156 1 1 818 20230819000522
+35.93.132.190 1 1 237 20230827145726
+76.166.161.154 3 12 1854988 20230824142131
+34.212.196.108 1 1 237 20230829151928
+165.22.226.160 1 1 12226 20230820222420
+205.210.31.21 1 1 334 20230829093342
+107.127.49.88 2 5 4304 20230826090713
+45.40.165.138 1 1 818 20230818160221
+87.236.176.4 1 1 237 20230824134417
+37.120.235.164 3 3 4563 20230828190329
+188.165.87.101 1 1 334 20230823085427
+198.54.134.106 1 1 624 20230819005649
+14.29.140.161 1 1 358 20230831125922
+44.201.216.89 2 2 3926 20230818100408
+34.220.227.232 1 1 237 20230819134253
+46.101.248.117 1 1 358 20230831004223
+35.204.116.8 2 2 668 20230822062052
+37.187.215.243 1 1 334 20230819121125
+176.126.87.37 1 1 237 20230825110122
+35.90.184.18 1 1 358 20230831155928
+167.248.133.51 1 1 237 20230830113543
+167.248.133.186 1 1 237 20230821105226
+178.208.176.108 1 1 38696 20230818132347
+188.165.87.106 1 1 1625 20230819101134
+51.254.49.104 2 2 1959 20230819135003
+47.254.16.187 1 1 818 20230818222616
+31.94.38.115 1 2 43544 20230818132346
+188.166.159.1 1 1 237 20230827003152
+188.165.87.100 1 1 334 20230823085427
+47.88.101.3 1 1 818 20230819000522
+192.252.212.33 2 2 1582 20230818100545
+37.187.215.253 2 2 2032 20230823103601
+147.182.130.98 1 1 1625 20230818121902
+183.136.225.44 3 3 1327 20230821233914
+35.88.93.177 1 1 237 20230830143521
+194.163.155.246 1 1 818 20230818194757
+99.196.129.183 3 89 10848633 20230822045139
+167.94.146.59 1 1 12218 20230820133239
+107.77.215.53 4 15 2374524 20230822070637
+159.203.19.76 1 1 237 20230823015841
+47.251.13.32 1 2 13055 20230819004651
+151.216.201.12 1 1 818 20230818193649
+34.75.193.129 2 2 474 20230822140643
+54.203.48.174 1 1 237 20230829151859
+35.88.39.118 1 1 358 20230831155834
+65.154.226.170 1 1 237 20230821063202
+207.180.201.25 2 2 24449 20230827140237
+137.184.115.138 1 1 237 20230828224531
+87.236.176.159 1 1 237 20230819220550
+54.190.89.187 2 2 474 20230826134804
+47.88.94.28 1 1 818 20230819000522
+135.148.195.11 1 1 831 20230829153922
+209.146.23.178 1 1 334 20230824182601
+46.101.103.192 1 1 1625 20230818121905
+47.89.193.162 2 2 1636 20230819003525
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20230818 183 353 25172696 41
+20230819 81 484 16711035 41
+20230820 16 203 15133429 8
+20230821 76 804 98073238 21
+20230822 37 328 42471522 15
+20230823 28 123 182373 20
+20230824 44 452 49655442 17
+20230825 32 130 1373577 13
+20230826 27 218 27664023 12
+20230827 15 15 27530 13
+20230828 26 38 2438796 16
+20230829 24 261 35727292 18
+20230830 24 224 30514157 13
+20230831 24 206 13174287 16
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 7
+1h+ 2
+15mn-30mn 7
+30mn-1h 6
+30s-2mn 8
+0s-30s 227
+5mn-15mn 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 11
+/ 394 1706442 245 185
+/html/main.html 87 71177 11 24
+/html/property.html 50 61020 1 15
+/html/photographs.html 45 47933 4 20
+/html/contact.html 30 34939 1 12
+/html/manual.html 22 19482 1 6
+/cPanel_magic_revision_1616517441/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.woff 2 45042 0 1
+/cpanel 2 25111 0 0
+/cPanel_magic_revision_1616517441/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.woff 2 44590 0 0
+/cPanel_magic_revision_1616517441/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.woff 2 45552 0 1
+/.env 1 12224 1 0
+END_SIDER

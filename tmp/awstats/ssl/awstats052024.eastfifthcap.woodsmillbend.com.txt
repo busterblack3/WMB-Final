@@ -1,0 +1,328 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202405 will be lost/reset.
+# Last config file used to build this data file was /home/k2r1om8prsxd/tmp/awstats/ssl/awstats.eastfifthcap.woodsmillbend.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2035                
+POS_TIME 2694                
+POS_VISITOR 8121                
+POS_DAY 9173                
+POS_DOMAIN 3315                
+POS_LOGIN 3635                
+POS_ROBOT 3790                
+POS_WORMS 4024                
+POS_EMAILSENDER 4155                
+POS_EMAILRECEIVER 4298                
+POS_SESSION 9569                
+POS_SIDER 9716                
+POS_FILETYPES 4433                
+POS_DOWNLOADS 4611                
+POS_OS 4659                
+POS_BROWSER 4784                
+POS_SCREENSIZE 4962                
+POS_UNKNOWNREFERER 5036                
+POS_UNKNOWNREFERERBROWSER 5595                
+POS_ORIGIN 5962                
+POS_SEREFERRALS 6095                
+POS_PAGEREFS 6239                
+POS_SEARCHWORDS 6739                
+POS_KEYWORDS 6891                
+POS_MISC 2358                
+POS_ERRORS 6950                
+POS_CLUSTER 3491                
+POS_SIDER_404 7048                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240601185655 1 0 11613583840554
+FirstTime 0
+LastTime 20240529175550
+LastUpdate 20240602055813 1 0 0 0 0
+TotalVisits 25                  
+TotalUnique 25                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 25                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 8 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 12194 9 10 49243
+1 1 1 12198 9 12 12238
+2 0 0 0 7 8 0
+3 1 1 12186 9 11 12196
+4 3 3 36209 11 12 12198
+5 2 2 49285 12 15 26
+6 2 2 49292 4 7 37745
+7 1 1 37710 4 5 0
+8 0 0 0 11 15 37710
+9 5 15 159526 8 9 52
+10 1 1 12189 7 9 12200
+11 0 0 0 7 10 87
+12 2 2 49088 11 14 12198
+13 1 1 12080 15 21 52
+14 0 0 0 11 14 261
+15 2 2 24157 2 2 0
+16 1 1 12189 4 5 49100
+17 2 2 49785 2 4 0
+18 1 1 12198 13 14 191
+19 0 0 0 9 11 0
+20 0 0 0 10 10 37797
+21 1 1 36901 3 4 0
+22 1 1 12193 8 9 52
+23 0 0 0 18 18 104
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 12 22 219108
+cn 5 5 110652
+ca 5 5 186932
+be 2 2 24258
+bg 1 1 12080
+it 1 1 12079
+in 1 1 12078
+nl 1 1 12193
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+no_user_agent 4 149222 20240527001930 0
+unknown 2 26 20240529061253 2
+survey 1 37710 20240506060246 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+woff 3 67592 0 0
+svg 2 3532 0 0
+png 6 4794 0 0
+html 18 394483 0 0
+xml 2 24761 0 0
+php 5 60510 0 0
+css 2 33708 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+linux 5 5
+Unknown 13 13
+macosx15 4 4
+macosx7 2 2
+win10 14 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+chrome120.0.0.0 2 2
+firefox95.0 5 5
+Unknown 5 5
+chrome17.0.963.56 2 2
+mozilla 8 8
+chrome121.0.0.0 2 2
+chrome117.0.5938.132 14 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20240527040617
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20240528045722
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20240527212608
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20240527212608
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 19 19
+From1 0 0
+From2 0 0
+From3 9 19
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://cpanel.eastfifthcap.com/wp-login.php 5 5
+https://cpanel.eastfifthcap.com/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/open_sans.min.css 3 3
+http://cpanel.eastfifthcap.com 1 1
+https://cpanel.eastfifthcap.com 0 3
+https://cpanel.eastfifthcap.com/cPanel_magic_revision_1701716494/unprotected/cpanel/style_v2_optimized.css 0 7
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 203 0
+401 26 1165
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 22
+/wp-content/wp-term.php 1 https://www.google.com
+/wp-content/plugins/wp-config-sample.php 1 www.google.com
+/wp-admin/wp-cron.php 1 www.google.com
+/inputs.php 6 www.google.com
+/ 128 -
+/wp-term.php 2 https://www.google.com
+/wp-content/plugins/fix/up.php 2 www.google.com
+/wp-json/litespeed/v1/cdn_status 2 -
+/checkbex.php 1 www.google.com
+/wp-content/plugins/wp-catcher/index.php 1 www.google.com
+/simple.php 5 www.google.com
+/wp-ver.php 3 www.google.com
+/enhance 1 -
+/wp-content/wp-cron.php 1 www.google.com
+/wp-content/plugins/wp-term.php 1 https://www.google.com
+/.git/config 7 -
+/about.php 2 www.google.com
+/style.php 2 www.google.com
+/wp-cron.php 6 www.google.com
+/wp-includes/wp-cron.php 1 www.google.com
+/robots.txt 28 -
+/wp-includes/js/jquery/jquery.js 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 25
+65.154.226.171 4 14 121816 20240509093444
+121.40.58.137 1 1 12075 20240529175550
+123.6.49.41 1 1 36908 20240529050024
+87.236.176.170 1 1 12187 20240509122726
+199.45.154.16 1 1 12070 20240527040617
+205.210.31.110 1 1 37710 20240501073811
+205.210.31.77 1 1 36901 20240516123803
+103.154.184.42 1 1 12078 20240517150747
+199.45.155.22 1 1 12189 20240511104728
+81.126.72.234 1 1 12079 20240522151950
+199.45.155.42 1 1 12198 20240514013655
+188.166.37.236 1 1 12193 20240504222354
+205.210.31.198 1 1 37710 20240510171921
+68.178.220.98 1 1 12198 20240512183902
+78.142.63.248 1 1 12080 20240519134741
+123.6.49.36 1 1 12377 20240529050047
+199.45.155.35 1 1 12194 20240503004149
+101.198.0.187 1 1 12384 20240529061259
+205.210.31.9 1 1 37710 20240515092455
+199.45.154.60 1 1 12189 20240511162417
+198.235.24.184 1 1 36901 20240527212608
+87.236.176.16 1 1 12071 20240528045722
+199.45.154.64 1 1 12186 20240503030751
+67.205.143.51 1 1 12068 20240519040004
+101.198.0.155 1 1 36908 20240529061235
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20240501 1 1 37710 1
+20240503 2 2 24380 2
+20240504 1 1 12193 1
+20240509 5 15 134003 2
+20240510 1 1 37710 1
+20240511 2 2 24378 2
+20240512 1 1 12198 1
+20240514 1 1 12198 1
+20240515 1 1 37710 1
+20240516 1 1 36901 1
+20240517 1 1 12078 1
+20240519 2 2 24148 2
+20240522 1 1 12079 1
+20240527 2 2 48971 2
+20240528 1 1 12071 1
+20240529 5 5 110652 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 25
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 18 394483 18 17
+/wp-login.php 5 60510 5 5
+/sitemap.xml 2 24761 2 2
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.woff 1 22295 0 1
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.woff 1 22521 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.woff 1 22776 0 0
+END_SIDER
