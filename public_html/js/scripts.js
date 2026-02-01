@@ -16,14 +16,23 @@ fetch("menu.html")
         dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
       });
 
-      // Close menu when clicking a link inside it
+      // Handle menu link clicks with custom scroll to avoid lazy-load layout shift issues
       const menuLinks = dropdown.querySelectorAll('a');
       menuLinks.forEach(link => {
         link.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+
+          const targetId = this.getAttribute('href').substring(1);
+          const targetElement = document.getElementById(targetId);
+
           // Close menu immediately
-          setTimeout(() => {
-            dropdown.style.display = "none";
-          }, 10);
+          dropdown.style.display = "none";
+
+          if (targetElement) {
+            // Use scrollIntoView for accurate positioning even with lazy-loaded images
+            targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
         });
       });
 
@@ -106,7 +115,7 @@ if (closeBtn) {
 // GALLERY IMAGE MODAL
 // ================================
 var imageModal = document.getElementById("imageModal");
-var galleryImages = document.querySelectorAll('.gallery-img');
+var galleryImages = document.querySelectorAll('.gallery-img'); // Will be re-queried after DOM ready
 var currentImageIndex = -1;
 
 function openImageModal(imageElement) {
@@ -179,5 +188,28 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("resize", () => {
     // Recompute on resize because hero height can change
     updateStickyHeader();
+  });
+});
+
+// ================================
+// PHOTO GALLERY - LOAD MORE
+// ================================
+document.addEventListener("DOMContentLoaded", () => {
+  const gallery = document.getElementById("photoGallery");
+  const loadMoreBtn = document.getElementById("loadMorePhotos");
+
+  // Re-query gallery images for modal navigation
+  galleryImages = document.querySelectorAll('.gallery-img');
+
+  if (!gallery || !loadMoreBtn) return;
+
+  // Start with gallery collapsed (showing only first 20 images)
+  gallery.classList.add("collapsed");
+
+  loadMoreBtn.addEventListener("click", () => {
+    // Expand the gallery
+    gallery.classList.remove("collapsed");
+    // Hide the button
+    loadMoreBtn.classList.add("hidden");
   });
 });

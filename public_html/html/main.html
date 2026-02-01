@@ -7,6 +7,9 @@
 
     <link rel="icon" href="../images/logo.png" type="image/png" />
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet" />
 
     <!-- Google tag (gtag.js) -->
     <script
@@ -41,20 +44,21 @@
         position: fixed;
       }
 
-      /* Section spacing / anchor offset */
+      /* Section spacing / anchor offset - positions divider behind header */
       .scroll-section {
-        min-height: 100vh;
         box-sizing: border-box;
-        scroll-margin-top: 70px;
+        scroll-margin-top: 30px; /* divider hides behind 56px header; content starts ~34px below header */
       }
 
-      /* Make background-image sections behave like full panels */
-      section.contact-page,
-      section.residency-page {
+      /* Only hero gets full viewport height */
+      #home.scroll-section {
         min-height: 100vh;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+      }
+
+      /* Form sections get extra vertical padding for visual balance */
+      section.contact-page {
+        padding-top: 60px;
+        padding-bottom: 80px;
       }
 
       /* Convert the two forms from duplicate IDs to shared classes (mirrors your #fs-frm rules) */
@@ -222,7 +226,10 @@
          ========================= -->
     <section id="home" class="scroll-section">
       <main id="main-index-page">
-        <img src="../images/river.jpg" alt="Woods Mill Bend" class="index-page" />
+        <video class="index-page" autoplay muted loop playsinline>
+          <source src="../images/video/long_run_opt.mp4" type="video/mp4" />
+        </video>
+        <img src="../images/wmb_words.png" alt="Woods Mill Bend" class="hero-title" />
       </main>
     </section>
 
@@ -272,7 +279,7 @@
     <section id="property" class="scroll-section">
       <main>
         <header class="section-header">
-          <img src="../images/wmb logo.jpg" alt="Woods Mill Bend Logo" class="section-logo" />
+          <img src="../images/wmb logo.png" alt="Woods Mill Bend Logo" class="section-logo" />
         </header>
 
         <div class="container">
@@ -362,7 +369,7 @@
         "
       >
         <header class="section-header">
-          <img src="../images/wmb logo.jpg" alt="Woods Mill Bend Logo" class="section-logo" />
+          <img src="../images/wmb logo.png" alt="Woods Mill Bend Logo" class="section-logo" />
         </header>
 
         <p class="manual-intro">
@@ -400,714 +407,183 @@
     </section>
 
     <!-- =========================
-         ARTIST RESIDENCY
+         PHOTOGRAPHS
          ========================= -->
-    <section id="residency" class="scroll-section residency-page">
-      <main>
+    <section id="photos" class="scroll-section photos-section">
+      <div class="photos-container">
         <header class="section-header">
-          <h2>Artist Residency</h2>
-          <p>Apply for a stay in the Log Cabin</p>
+          <h2>Photographs</h2>
         </header>
 
-        <form
-          class="fs-frm"
-          name="artist-residency-form"
-          accept-charset="utf-8"
-          action="https://formspree.io/f/myyqelpw"
-          method="post"
-        >
-          <img src="../images/wmb logo.jpg" alt="WMB Logo" class="form-logo" />
+        <div class="masonry-gallery" id="photoGallery">
+          <!-- Property -->
+          <img src="../images/gallery/_Property/image001.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image003.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image005.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image006.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image007.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image008.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image012.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image013.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image018.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image024.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image031.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image032.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image033.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image035.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image036.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image037.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image041.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image043.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image049.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image054.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image055.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image5.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Property/image7.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <!-- Main House - Inside -->
+          <img src="../images/gallery/_Main House/Inside/image1.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Inside/image2.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Inside/image16.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Inside/image17.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Inside/image18.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Inside/image19.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Inside/image20.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Inside/image21.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Inside/image23.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Inside/image24.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Inside/image26.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Inside/image27.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Inside/image28.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <!-- Main House - Outside -->
+          <img src="../images/gallery/_Main House/Outside/image10.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Outside/image11.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Outside/image12.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Outside/image14.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Outside/image014.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Outside/image017.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Outside/image021.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Outside/image023.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Outside/image039.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Main House/Outside/image053.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <!-- Log Cabin -->
+          <img src="../images/gallery/_Log Cabin/1cc58b6f-9354-48f0-8317-bba780554626.png" alt="Woods Mill Bend - Log Cabin" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Log Cabin/22da080c-fe47-4259-a45f-7d9e0cd77526.png" alt="Woods Mill Bend - Log Cabin" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Log Cabin/568666d6-75b3-4576-ae14-17615b301f5a.png" alt="Woods Mill Bend - Log Cabin" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Log Cabin/96ce8db1-0155-4749-98b1-d25f72b13499.png" alt="Woods Mill Bend - Log Cabin" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Log Cabin/e5186a32-796c-4b0f-bb87-55996500bd01.png" alt="Woods Mill Bend - Log Cabin" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Log Cabin/image088.png" alt="Woods Mill Bend - Log Cabin" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Log Cabin/IMG_4083.png" alt="Woods Mill Bend - Log Cabin" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <!-- Sauna House -->
+          <img src="../images/gallery/_Sauna House/image086.png" alt="Woods Mill Bend - Sauna House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Sauna House/image087.png" alt="Woods Mill Bend - Sauna House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Sauna House/image089.png" alt="Woods Mill Bend - Sauna House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Sauna House/image090.png" alt="Woods Mill Bend - Sauna House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <!-- Farm House -->
+          <img src="../images/gallery/_Farm House/image3.png" alt="Woods Mill Bend - Farm House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Farm House/image4.png" alt="Woods Mill Bend - Farm House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <!-- Dance Hall -->
+          <img src="../images/gallery/_Dance Hall/image047.png" alt="Woods Mill Bend - Dance Hall" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Dance Hall/image048.png" alt="Woods Mill Bend - Dance Hall" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Dance Hall/image051.png" alt="Woods Mill Bend - Dance Hall" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/_Dance Hall/image084.png" alt="Woods Mill Bend - Dance Hall" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+        </div>
 
-          <p>
-            Woods Mill Bend is currently accepting applications for artist
-            residencies. If accepted, artists will have use of the Log Cabin for
-            up to two weeks. The program is open to artists of all disciplines.
-            In exchange for use of the facilities, artists will be encouraged,
-            but not required, to donate one piece of art created (fully or
-            partially) on-site to Woods Mill Bend.
-          </p>
-
-          <div>
-            <fieldset class="fs-frm-inputs">
-              <label for="res-full-name">Full Name</label>
-              <input
-                type="text"
-                name="name"
-                id="res-full-name"
-                placeholder="First and Last"
-                required
-              />
-
-              <label for="res-email-address">Email Address</label>
-              <input
-                type="email"
-                name="_replyto"
-                id="res-email-address"
-                placeholder="email@domain.tld"
-                required
-              />
-
-              <label for="res-message">
-                Please tell us about yourself, your work, and what you hope to
-                accomplish during your WMB Artist Residency
-              </label>
-              <textarea
-                rows="5"
-                name="message"
-                id="res-message"
-                placeholder="comments"
-                required
-              ></textarea>
-
-              <input
-                type="hidden"
-                name="_subject"
-                id="res-email-subject"
-                value="Artist Residency Submission"
-              />
-            </fieldset>
-          </div>
-
-          <input type="submit" value="Submit" />
-        </form>
-      </main>
+        <button id="loadMorePhotos" class="load-more-btn">
+          View More Photos
+        </button>
+      </div>
     </section>
 
     <!-- =========================
          CONTACT
          ========================= -->
-    <section id="contact" class="scroll-section contact-page">
-      <main>
-        <header class="section-header">
-          <h2>Contact</h2>
-          <p>Send a note or follow along on Instagram</p>
-        </header>
+    <section id="contact" class="scroll-section contact-section">
+      <div class="contact-container">
+        <div class="contact-card">
+          <div class="contact-header">
+            <img src="../images/wmb logo.png" alt="Woods Mill Bend" class="contact-logo" />
+            <h2 class="contact-title">Get in Touch</h2>
+            <p class="contact-intro" style="font-style: normal; text-align: justify;">
+              Whether you're planning a visit, have questions about the property,
+              or simply want to say hello, please shoot us a note using the form below.
+            </p>
+            <h2 class="contact-title" style="margin-top: 24px;">Artist Residency</h2>
+            <p class="contact-intro" style="font-style: normal; text-align: justify;">
+              Woods Mill Bend is currently accepting applications for artist residencies.
+              The program is open to artists of all disciplines. In exchange for the use
+              of the facilities, artists will be encouraged, but not required, to donate
+              one piece of art created (fully or partially) on-site to Woods Mill Bend.
+              If you're interested in applying in the WMB Residency, please use the form
+              below to tell us a little bit about yourself, your work, and what you hope
+              to accomplish during your WMB Artist Residency.
+            </p>
+          </div>
 
-        <form
-          class="fs-frm"
-          name="contact-form"
-          accept-charset="utf-8"
-          action="https://formspree.io/f/myyqelpw"
-          method="post"
-        >
-          <img src="../images/wmb logo.jpg" alt="WMB Logo" class="form-logo" />
-
-          <div>
-            <fieldset class="fs-frm-inputs">
-              <label for="con-full-name">Full Name</label>
+          <form
+            class="contact-form"
+            name="contact-form"
+            accept-charset="utf-8"
+            action="https://formspree.io/f/myyqelpw"
+            method="post"
+          >
+            <div class="form-group">
+              <label for="con-full-name">Name</label>
               <input
                 type="text"
                 name="name"
                 id="con-full-name"
-                placeholder="First and Last"
+                placeholder="Your name"
                 required
               />
+            </div>
 
-              <label for="con-email-address">Email Address</label>
+            <div class="form-group">
+              <label for="con-email-address">Email</label>
               <input
                 type="email"
                 name="_replyto"
                 id="con-email-address"
-                placeholder="email@domain.tld"
+                placeholder="your@email.com"
                 required
               />
+            </div>
 
+            <div class="form-group">
               <label for="con-message">Message</label>
               <textarea
-                rows="5"
+                rows="4"
                 name="message"
                 id="con-message"
-                placeholder="Add message here."
+                placeholder="How can we help?"
                 required
               ></textarea>
+            </div>
 
-              <input
-                type="hidden"
-                name="_subject"
-                id="con-email-subject"
-                value="Contact Form Submission"
-              />
-            </fieldset>
-          </div>
-
-          <input type="submit" value="Submit" />
-        </form>
-
-        <div class="social-media-block">
-          <a
-            href="https://www.instagram.com/woodsmillbend"
-            target="_blank"
-            rel="noopener"
-          >
-            <img
-              src="../images/insta_logo.png"
-              alt="Instagram Logo"
-              class="social-media-logo"
+            <input
+              type="hidden"
+              name="_subject"
+              id="con-email-subject"
+              value="Contact Form Submission"
             />
-          </a>
-        </div>
-      </main>
-    </section>
 
-    <!-- =========================
-         PHOTOGRAPHS
-         ========================= -->
-    <section id="photos" class="scroll-section">
-      <main style="background-color: transparent;">
-        <header class="section-header">
-          <h2>Photographs</h2>
-          <p>A few views from Woods Mill Bend</p>
-        </header>
+            <button type="submit" class="contact-submit">Send Message</button>
+          </form>
 
-        <div class="gallery">
-          <img
-            src="../images/gallery/image001.jpg"
-            alt="View from Main House back deck"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image004.jpg"
-            alt="Baby by the fire"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image005.jpg"
-            alt="Description 5"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image006.jpg"
-            alt="Description 6"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image007.jpg"
-            alt="Description 7"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image008.jpg"
-            alt="Description 8"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image011.jpg"
-            alt="Description 11"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image012.jpg"
-            alt="Description 12"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image013.jpg"
-            alt="Description 13"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image014.jpg"
-            alt="Description 14"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image016.jpg"
-            alt="Description 16"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image017.jpg"
-            alt="Description 17"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image018.jpg"
-            alt="Description 18"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image019.jpg"
-            alt="Description 19"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image021.jpg"
-            alt="Description 21"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image023.jpg"
-            alt="Description 23"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image024.jpg"
-            alt="Description 24"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image025.jpg"
-            alt="Description 25"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image026.jpg"
-            alt="Description 26"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image027.jpg"
-            alt="Description 27"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image028.jpg"
-            alt="Description 28"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image029.jpg"
-            alt="Description 29"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image031.jpg"
-            alt="Description 31"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image032.jpg"
-            alt="Description 32"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image033.jpg"
-            alt="Description 33"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image035.jpg"
-            alt="Description 35"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image036.jpg"
-            alt="Description 36"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image037.jpg"
-            alt="Description 37"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image038.jpg"
-            alt="Description 38"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image039.jpg"
-            alt="Description 39"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image041.jpg"
-            alt="Description 41"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image042.jpg"
-            alt="Description 42"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image043.jpg"
-            alt="Description 43"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image044.jpg"
-            alt="Description 44"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image045.jpg"
-            alt="Description 45"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image046.jpg"
-            alt="Description 46"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image047.jpg"
-            alt="Description 47"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image049.jpg"
-            alt="Description 49"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image050.jpg"
-            alt="Description 50"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image051.jpg"
-            alt="Description 51"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image052.jpg"
-            alt="Description 52"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image053.jpg"
-            alt="Description 53"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image054.jpg"
-            alt="Description 54"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image055.jpg"
-            alt="Description 55"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image056.jpg"
-            alt="Description 56"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image057.jpg"
-            alt="Description 57"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image058.jpg"
-            alt="Description 58"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image059.jpg"
-            alt="Description 59"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image060.jpg"
-            alt="Description 60"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image061.jpg"
-            alt="Description 61"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image063.jpg"
-            alt="Description 63"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image064.jpg"
-            alt="Description 64"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image065.jpg"
-            alt="Description 65"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image066.jpg"
-            alt="Description 66"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image067.jpg"
-            alt="Description 67"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image068.jpg"
-            alt="Description 68"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image069.jpg"
-            alt="Description 69"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image070.jpg"
-            alt="Description 70"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image071.jpg"
-            alt="Description 71"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image072.jpg"
-            alt="Description 72"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image073.jpg"
-            alt="Description 73"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image074.jpg"
-            alt="Description 74"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image075.jpg"
-            alt="Description 75"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image076.jpg"
-            alt="Description 76"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image077.jpg"
-            alt="Description 77"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image078.jpg"
-            alt="Description 78"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image079.jpg"
-            alt="Description 79"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image080.jpg"
-            alt="Description 80"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image081.jpg"
-            alt="Description 81"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image082.jpg"
-            alt="Description 82"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image083.jpg"
-            alt="Description 83"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image084.jpg"
-            alt="Description 84"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image086.jpg"
-            alt="Description 85"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image087.jpg"
-            alt="Description 85"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image089.jpg"
-            alt="Description 85"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image090.jpg"
-            alt="Description 85"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image085.jpg"
-            alt="Description 85"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
-          <img
-            src="../images/gallery/image088.jpg"
-            alt="Description 85"
-            class="gallery-img"
-            loading="lazy"
-            onclick="openImageModal(this)"
-          />
+          <div class="contact-footer">
+            <span class="contact-divider-text">or connect with us</span>
+            <a
+              href="https://www.instagram.com/woodsmillbend"
+              target="_blank"
+              rel="noopener"
+              class="contact-social-link"
+              aria-label="Follow Woods Mill Bend on Instagram"
+            >
+              <img src="../images/insta_logo.png" alt="" class="contact-social-icon" />
+              <span>@woodsmillbend</span>
+            </a>
+          </div>
         </div>
-      </main>
+      </div>
     </section>
 
     <!-- Image Modal (used by gallery + scripts.js) -->
