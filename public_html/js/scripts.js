@@ -192,16 +192,17 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // ================================
-// PHOTO GALLERY - LOAD MORE
+// PHOTO GALLERY - LOAD MORE / SHOW LESS
 // ================================
 document.addEventListener("DOMContentLoaded", () => {
   const gallery = document.getElementById("photoGallery");
   const loadMoreBtn = document.getElementById("loadMorePhotos");
+  const showLessBtn = document.getElementById("showLessPhotos");
 
   // Re-query gallery images for modal navigation
   galleryImages = document.querySelectorAll('.gallery-img');
 
-  if (!gallery || !loadMoreBtn) return;
+  if (!gallery || !loadMoreBtn || !showLessBtn) return;
 
   // Start with gallery collapsed (showing only first 20 images)
   gallery.classList.add("collapsed");
@@ -209,7 +210,18 @@ document.addEventListener("DOMContentLoaded", () => {
   loadMoreBtn.addEventListener("click", () => {
     // Expand the gallery
     gallery.classList.remove("collapsed");
-    // Hide the button
+    // Swap buttons
     loadMoreBtn.classList.add("hidden");
+    showLessBtn.classList.remove("hidden");
+  });
+
+  showLessBtn.addEventListener("click", () => {
+    // Collapse the gallery
+    gallery.classList.add("collapsed");
+    // Swap buttons
+    showLessBtn.classList.add("hidden");
+    loadMoreBtn.classList.remove("hidden");
+    // Scroll back to the photos section
+    document.getElementById("photos").scrollIntoView({ behavior: "smooth" });
   });
 });
