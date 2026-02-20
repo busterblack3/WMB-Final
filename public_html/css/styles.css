@@ -885,159 +885,134 @@ body.manual-page {
    PROPERTY SECTION
    ===================================================================== */
 
-/* Property section uses standard spacing now */
+/* --- Map Preview --- */
+.property-map-preview {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
 
-.container {
+.property-map-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 60vh;
+  object-fit: contain;
+  background: #f9f6f0;
+}
+
+.property-map-btn {
+  position: absolute;
+  bottom: 16px;
+  right: 46px; /* accounts for 30px padding */
+  background: rgba(0,0,0,0.65);
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  font-family: "Courier New", monospace;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.property-map-btn:hover {
+  background: rgba(0,0,0,0.85);
+}
+
+/* --- Map Modal --- */
+.map-modal-content {
+  position: fixed;
+  inset: 0;
   display: flex;
-  align-items: flex-start;
-  gap: 30px;
-  max-width: 1400px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.map-modal-content img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+}
+.map-modal-close {
+  position: fixed;
+  top: 16px;
+  right: 24px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  line-height: 1;
+  z-index: 1001;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+.map-modal-close:hover {
+  color: #ddd;
+}
+
+/* --- Property Cards Grid --- */
+.property-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 30px 40px 30px;
   box-sizing: border-box;
 }
 
-.large-image {
-  width: 50%;
-  max-width: 600px;
-  height: auto;
-  max-height: calc(100vh - 70px); /* Never taller than viewport minus sticky position */
-  object-fit: contain;
-  flex-shrink: 0;
-  position: sticky;
-  top: 70px; /* Matches scroll-margin-top offset */
-  align-self: flex-start;
-}
-
-.right-section {
-  flex: 1;
+.property-card {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  min-width: 0; /* Allows flex item to shrink below content size */
-}
-
-.img-text-pair {
-  display: flex;
-  gap: 20px;
-  align-items: flex-start;
-}
-
-.img-text-pair img {
-  width: 140px;
-  min-width: 140px;
-  height: auto;
-  object-fit: contain;
-}
-
-.text-description {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   background: transparent;
-  min-width: 0;
 }
 
-.text-description h3 {
+.property-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.property-card-body {
+  padding: 12px 4px 8px 4px;
+}
+
+.property-card-body h3 {
   font-family: "Courier New", monospace;
   font-weight: bold;
-  font-size: 16px;
-  margin: 0 0 8px 0;
-  padding: 0;
+  font-size: 15px;
+  margin: 0 0 6px 0;
 }
 
-.text-description p {
+.property-card-body p {
   font-family: "Courier New", monospace;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.6;
   margin: 0;
-  padding: 0;
 }
 
-/* Tablet breakpoint */
-@media (max-width: 1024px) {
-  .container {
-    gap: 25px;
-    padding: 0 20px 40px 20px;
-  }
-
-  .large-image {
-    width: 45%;
-    max-width: 400px;
-    max-height: calc(100vh - 70px);
-    top: 70px; /* Matches scroll-margin-top offset */
-  }
-
-  .img-text-pair img {
-    width: 120px;
-    min-width: 120px;
-  }
-
-  .text-description h3 {
-    font-size: 15px;
-  }
-
-  .text-description p {
-    font-size: 13px;
-  }
-}
-
-/* Mobile breakpoint */
+/* --- Responsive --- */
 @media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 0 20px 40px 20px;
+  .property-map-preview {
+    padding: 0 16px;
+    margin-bottom: 28px;
   }
-
-  .large-image {
-    position: static;
-    width: 100%;
-    max-width: 500px;
+  .property-map-btn {
+    right: 32px;
+    bottom: 12px;
+    font-size: 12px;
+    padding: 6px 14px;
   }
-
-  .right-section {
-    width: 100%;
-    gap: 28px;
-  }
-
-  .img-text-pair {
+  .property-cards {
     gap: 16px;
-  }
-
-  .img-text-pair img {
-    width: 110px;
-    min-width: 110px;
-  }
-
-  .text-description h3 {
-    font-size: 15px;
-    margin-bottom: 6px;
-  }
-
-  .text-description p {
-    font-size: 13px;
-    line-height: 1.5;
-  }
-}
-
-/* Small mobile */
-@media (max-width: 480px) {
-  .img-text-pair {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .img-text-pair img {
-    width: 100%;
-    max-width: 200px;
-  }
-
-  .text-description {
-    width: 100%;
+    padding: 0 16px 32px 16px;
   }
 }
 

@@ -112,6 +112,23 @@ if (closeBtn) {
 }
 
 // ================================
+// MAP LIGHTBOX MODAL
+// ================================
+function openMapModal() {
+  var modal = document.getElementById('mapModal');
+  if (modal) modal.style.display = 'block';
+}
+
+function closeMapModal() {
+  var modal = document.getElementById('mapModal');
+  if (modal) modal.style.display = 'none';
+}
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeMapModal();
+});
+
+// ================================
 // GALLERY IMAGE MODAL
 // ================================
 var imageModal = document.getElementById("imageModal");
