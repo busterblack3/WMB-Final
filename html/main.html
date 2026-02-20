@@ -282,75 +282,57 @@
           <img src="../images/wmb-logo.png" alt="Woods Mill Bend Logo" class="section-logo" />
         </header>
 
-        <div class="container">
-          <img
-            src="../images/map-color2.jpg"
-            alt="Color Map"
-            class="large-image"
-            usemap="#color-map"
-          />
+        <!-- Full-width map preview with expand button -->
+        <div class="property-map-preview" onclick="openMapModal()">
+          <img src="../images/map-color2.jpg" alt="Property Map" class="property-map-img" />
+          <button class="property-map-btn" aria-label="View full map">
+            &#x26F6; View Full Map
+          </button>
+        </div>
 
-          <div class="right-section">
-            <div class="img-text-pair">
-              <img src="../images/property/mainhouse.jpg" alt="Main House" />
-              <div class="text-description">
-                <h3>Main House</h3>
-                <p>
-                  The Main House has four bedrooms (five individual beds), two
-                  bathrooms, a pool, and is used for short term rentals and as
-                  the primary residence of Woods Mill Bend.
-                </p>
-              </div>
-            </div>
+        <!-- 2-column property cards grid -->
+        <div class="property-cards">
 
-            <div class="img-text-pair">
-              <img src="../images/property/dancehall.jpg" alt="Dance Hall" />
-              <div class="text-description">
-                <h3>Dance Hall</h3>
-                <p>
-                  The Dance Hall is a large, open, stand-alone room that looks
-                  out over the Rocky River and can be used for yoga (mats and
-                  blocks included), ping pong, movies (projector on site), or
-                  gathering with friends.
-                </p>
-              </div>
-            </div>
-
-            <div class="img-text-pair">
-              <img src="../images/property/farmhouse.jpg" alt="Farm House" />
-              <div class="text-description">
-                <h3>Farm House</h3>
-                <p>
-                  The Farm house is currently being renovated but includes four
-                  bedrooms and one bathroom. It is used as a workspace for
-                  friends and family.
-                </p>
-              </div>
-            </div>
-
-            <div class="img-text-pair">
-              <img src="../images/property/artstudio.jpg" alt="Sauna Haus" />
-              <div class="text-description">
-                <h3>Sauna Haus</h3>
-                <p>
-                  The Sauna House was recently renovated and includes an
-                  electric sauna room and two large tubs on the back porch that
-                  can be used for cold plunge.
-                </p>
-              </div>
-            </div>
-
-            <div class="img-text-pair">
-              <img src="../images/property/logcabin.jpg" alt="Log Cabin" />
-              <div class="text-description">
-                <h3>Log Cabin</h3>
-                <p>
-                  The Log Cabin includes one bedroom and one bathroom and is
-                  available for short term rentals.
-                </p>
-              </div>
+          <div class="property-card">
+            <img src="../images/property/mainhouse.jpg" alt="Main House" />
+            <div class="property-card-body">
+              <h3>Main House</h3>
+              <p>Four bedrooms (five individual beds), two bathrooms, a pool. Used for short-term rentals and as the primary residence of Woods Mill Bend.</p>
             </div>
           </div>
+
+          <div class="property-card">
+            <img src="../images/property/dancehall.jpg" alt="Dance Hall" />
+            <div class="property-card-body">
+              <h3>Dance Hall</h3>
+              <p>A large, open, stand-alone room overlooking the Rocky River. Available for yoga (mats and blocks included), ping pong, movies (projector on site), or gathering with friends.</p>
+            </div>
+          </div>
+
+          <div class="property-card">
+            <img src="../images/property/farmhouse.jpg" alt="Farm House" />
+            <div class="property-card-body">
+              <h3>Farm House</h3>
+              <p>Currently being renovated. Includes four bedrooms and one bathroom, used as a workspace for friends and family.</p>
+            </div>
+          </div>
+
+          <div class="property-card">
+            <img src="../images/property/artstudio.jpg" alt="Sauna Haus" />
+            <div class="property-card-body">
+              <h3>Sauna Haus</h3>
+              <p>Recently renovated with an electric sauna room and two large tubs on the back porch for cold plunge.</p>
+            </div>
+          </div>
+
+          <div class="property-card">
+            <img src="../images/property/logcabin.jpg" alt="Log Cabin" />
+            <div class="property-card-body">
+              <h3>Log Cabin</h3>
+              <p>One bedroom and one bathroom, available for short-term rentals.</p>
+            </div>
+          </div>
+
         </div>
       </main>
     </section>
@@ -587,6 +569,14 @@
         </div>
       </div>
     </section>
+
+    <!-- Map Lightbox Modal -->
+    <div id="mapModal" class="modal" onclick="if(event.target===this)closeMapModal()">
+      <div class="map-modal-content">
+        <span class="map-modal-close" onclick="closeMapModal()">&times;</span>
+        <img src="../images/map-color2.jpg" alt="Property Map" />
+      </div>
+    </div>
 
     <!-- Image Modal (used by gallery + scripts.js) -->
     <div id="imageModal" class="modal">
