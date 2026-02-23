@@ -402,6 +402,24 @@ document.addEventListener('keydown', function(event) {
 });
 
 // ================================
+// HERO VIDEO FALLBACK
+// ================================
+document.addEventListener("DOMContentLoaded", () => {
+  const heroVideo = document.querySelector("#main-index-page video");
+  if (!heroVideo) return;
+
+  // Only fires if the video source actually fails to load
+  heroVideo.addEventListener("error", () => {
+    heroVideo.style.display = "none";
+    const fallback = document.createElement("img");
+    fallback.src = "../images/river.jpg";
+    fallback.alt = "Woods Mill Bend";
+    fallback.className = "index-page";
+    heroVideo.parentNode.insertBefore(fallback, heroVideo);
+  });
+});
+
+// ================================
 // Other Stuff
 // ================================
 
