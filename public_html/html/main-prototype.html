@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Woods Mill Bend</title>
+
+    <link rel="icon" href="../images/logo.png" type="image/png" />
+
+    <!-- Open Graph / link preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://woodsmillbend.com/" />
+    <meta property="og:title" content="Woods Mill Bend" />
+    <meta property="og:description" content="A private property on the Rocky River — available for short-term rental and artist residencies." />
+    <meta property="og:image" content="https://woodsmillbend.com/images/river.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://woodsmillbend.com/images/river.jpg" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <style>
+      /* ── PROTOTYPE: Inline Leaflet map (replaces static preview + modal) ── */
+      .property-inline-map {
+        width: 100%;
+        max-width: 1200px;
+        height: 72vh;
+        min-height: 520px;
+        margin: 0 auto;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 8px 40px rgba(0,0,0,0.22);
+        /* reuse .map-modal-leaflet layout */
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background: #e8e4d9;
+      }
+      .property-inline-map #leafletMap {
+        width: 100%;
+        height: 100%;
+        background: #e8e4d9;
+      }
+      /* Info panel: already uses position:absolute relative to its .map-modal-leaflet parent — works as-is */
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JRPSZJ8FS7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag("js", new Date());
+      gtag("config", "G-G7TKXRGNH8");
+    </script>
+
+  </head>
+
+  <body>
+    <div id="menu-placeholder"></div>
+
+    <div id="stickyHeaderBar" class="sticky-header-bar">
+      <div class="sticky-header-inner">
+        <div class="sticky-header-title">Woods Mill Bend</div>
+      </div>
+    </div>
+
+    <!-- HOME / HERO -->
+    <section id="home" class="scroll-section">
+      <main id="main-index-page">
+        <video class="index-page" autoplay muted loop playsinline>
+          <source src="../images/video/long_run_opt.mp4" type="video/mp4" />
+        </video>
+        <img src="../images/wmb_words.png" alt="Woods Mill Bend" class="hero-title" />
+      </main>
+    </section>
+
+    <div id="stickyHeaderTrigger" aria-hidden="true"></div>
+
+    <!-- AIRBNB -->
+    <section id="airbnb" class="scroll-section airbnb-logos-section">
+      <div class="airbnb-booking-wrap">
+        <img src="../images/airbnb_logo.png" alt="Airbnb" class="airbnb-brand" />
+        <h2 class="airbnb-booking-title">Airbnb Booking</h2>
+        <p class="airbnb-booking-copy">
+          For booking details for the Main House and/or the Log Cabin, click the links
+          below to open the Airbnb listing pages for each building.
+        </p>
+        <div class="airbnb-logos-grid">
+          <a href="https://www.airbnb.com/rooms/23501423?source_impression_id=p3_1691980929_h7BpZFuMZp3DUj4%2F" target="_blank" rel="noopener noreferrer" aria-label="Open Airbnb listing for Woods Mill Bend - Main House">
+            <img src="../images/Main_Logo.png" alt="Woods Mill Bend - Main House" />
+          </a>
+          <a href="https://www.airbnb.com/rooms/1409535735609516063?guests=1&adults=1&s=67&unique_share_id=4c49dcab-3e33-4196-ab56-d2a0e388e746" target="_blank" rel="noopener noreferrer" aria-label="Open Airbnb listing for Woods Mill Bend - Log Cabin">
+            <img src="../images/Log_Logo.png" alt="Woods Mill Bend - Log Cabin" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROPERTY (PROTOTYPE: inline interactive map) -->
+    <section id="property" class="scroll-section">
+      <main>
+        <header class="section-header">
+          <img src="../images/wmb-logo.png" alt="Woods Mill Bend Logo" class="section-logo" />
+        </header>
+
+        <!-- Inline Leaflet map — no click-through required -->
+        <div class="map-modal-leaflet property-inline-map">
+          <div id="leafletMap"></div>
+
+          <div id="mapInfoPanel" class="map-info-panel">
+            <button class="map-info-close" onclick="closeInfoPanel()" aria-label="Close">✕</button>
+            <div class="map-info-number" id="mapInfoNumber"></div>
+            <h3 id="mapInfoTitle"></h3>
+            <img id="mapInfoDrawing" class="map-info-drawing" src="" alt="" />
+            <div class="map-info-divider"></div>
+            <p class="map-info-desc" id="mapInfoDesc"></p>
+            <div class="map-info-divider" id="mapPhotoDivider" style="display:none;"></div>
+            <div id="mapPhotoGrid" class="map-photo-grid"></div>
+            <p class="map-photo-no-imgs" id="mapNoPhotos" style="display:none;">no photos yet</p>
+          </div>
+
+          <div class="map-tap-hint" id="mapTapHint">Tap a marker to explore</div>
+        </div>
+
+      </main>
+    </section>
+
+    <!-- USER MANUAL -->
+    <section id="manual" class="scroll-section manual-page">
+      <main style="background-color: transparent; text-align: center; max-width: 1100px; margin: 0 auto; padding: 0 20px;">
+        <header class="section-header">
+          <img src="../images/wmb-logo.png" alt="Woods Mill Bend Logo" class="section-logo" />
+        </header>
+        <p class="manual-intro">Click a book below to download the user manual (password required).</p>
+        <div class="manual-container">
+          <a class="manual-link manual-download" href="../pdf/wmb-2026-user-manual-main.pdf" data-manual-href="../pdf/wmb-2026-user-manual-main.pdf">
+            <img src="../images/user-manual-cover-main-2026.jpg" alt="2026 Main House Manual" class="manual-cover" />
+            <p>2026 Main House Manual</p>
+          </a>
+          <a class="manual-link manual-download" href="../pdf/wmb-2026-user-manual-log.pdf" data-manual-href="../pdf/wmb-2026-user-manual-log.pdf">
+            <img src="../images/user-manual-cover-log-2026.jpg" alt="2026 Log Cabin Manual" class="manual-cover" />
+            <p>2026 Log Cabin Manual</p>
+          </a>
+        </div>
+      </main>
+    </section>
+
+    <!-- PHOTOGRAPHS -->
+    <section id="photos" class="scroll-section photos-section">
+      <div class="photos-container">
+        <header class="section-header"><h2>Photographs</h2></header>
+        <div class="masonry-gallery" id="photoGallery">
+          <img src="../images/gallery/property/image001.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image003.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image005.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image006.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image007.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image008.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image012.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image013.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image018.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image024.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image031.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image032.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image033.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image035.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image036.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image037.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image041.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image043.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image049.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image054.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image055.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image5.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/property/image7.png" alt="Woods Mill Bend - Property" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Inside/image1.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Inside/image2.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Inside/image16.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Inside/image17.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Inside/image18.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Inside/image19.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Inside/image20.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Inside/image21.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Inside/image23.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Inside/image24.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Inside/image26.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Inside/image27.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Inside/image28.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Outside/image10.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Outside/image11.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Outside/image12.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Outside/image14.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Outside/image014.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Outside/image017.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Outside/image021.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Outside/image023.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Outside/image039.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/main-house/Outside/image053.png" alt="Woods Mill Bend - Main House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/log-cabin/1cc58b6f-9354-48f0-8317-bba780554626.png" alt="Woods Mill Bend - Log Cabin" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/log-cabin/22da080c-fe47-4259-a45f-7d9e0cd77526.png" alt="Woods Mill Bend - Log Cabin" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/log-cabin/568666d6-75b3-4576-ae14-17615b301f5a.png" alt="Woods Mill Bend - Log Cabin" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/log-cabin/96ce8db1-0155-4749-98b1-d25f72b13499.png" alt="Woods Mill Bend - Log Cabin" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/log-cabin/image088.png" alt="Woods Mill Bend - Log Cabin" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/log-cabin/IMG_4083.png" alt="Woods Mill Bend - Log Cabin" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/sauna-house/image086.png" alt="Woods Mill Bend - Sauna House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/sauna-house/image087.png" alt="Woods Mill Bend - Sauna House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/sauna-house/image089.png" alt="Woods Mill Bend - Sauna House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/sauna-house/image090.png" alt="Woods Mill Bend - Sauna House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/farm-house/image3.png" alt="Woods Mill Bend - Farm House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/farm-house/image4.png" alt="Woods Mill Bend - Farm House" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/dance-hall/image047.png" alt="Woods Mill Bend - Dance Hall" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/dance-hall/image048.png" alt="Woods Mill Bend - Dance Hall" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/dance-hall/image051.png" alt="Woods Mill Bend - Dance Hall" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+          <img src="../images/gallery/dance-hall/image084.png" alt="Woods Mill Bend - Dance Hall" class="gallery-img" loading="lazy" onclick="openImageModal(this)" />
+        </div>
+        <button id="loadMorePhotos" class="load-more-btn">View More Photos</button>
+        <button id="showLessPhotos" class="load-more-btn hidden">Show Less</button>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="scroll-section contact-section">
+      <div class="contact-container">
+        <div class="contact-card">
+          <div class="contact-header">
+            <img src="../images/wmb-logo.png" alt="Woods Mill Bend" class="contact-logo" />
+            <h2 class="contact-title">Get in Touch</h2>
+            <p class="contact-intro" style="font-style: normal; text-align: justify;">
+              Whether you're planning a visit, have questions about the property,
+              or simply want to say hello, please shoot us a note using the form below.
+            </p>
+            <h2 class="contact-title" style="margin-top: 24px;">Artist Residency</h2>
+            <p class="contact-intro" style="font-style: normal; text-align: justify;">
+              Woods Mill Bend is currently accepting applications for artist residencies.
+              The program is open to artists of all disciplines. In exchange for the use
+              of the facilities, artists will be encouraged, but not required, to donate
+              one piece of art created (fully or partially) on-site to Woods Mill Bend.
+              If you're interested in applying in the WMB Residency, please use the form
+              below to tell us a little bit about yourself, your work, and what you hope
+              to accomplish during your WMB Artist Residency.
+            </p>
+          </div>
+          <form class="contact-form" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/myyqelpw" method="post">
+            <div class="form-group">
+              <label for="con-full-name">Name</label>
+              <input type="text" name="name" id="con-full-name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="con-email-address">Email</label>
+              <input type="email" name="_replyto" id="con-email-address" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="con-message">Message</label>
+              <textarea rows="4" name="message" id="con-message" placeholder="How can we help?" required></textarea>
+            </div>
+            <input type="hidden" name="_subject" id="con-email-subject" value="Contact Form Submission" />
+            <button type="submit" class="contact-submit">Send Message</button>
+          </form>
+          <div class="contact-footer">
+            <span class="contact-divider-text">or connect with us</span>
+            <a href="https://www.instagram.com/woodsmillbend" target="_blank" rel="noopener" class="contact-social-link" aria-label="Follow Woods Mill Bend on Instagram">
+              <img src="../images/insta_logo.png" alt="" class="contact-social-icon" />
+              <span>@woodsmillbend</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAP MODAL -->
+    <div id="mapModal" class="modal" onclick="if(event.target===this)closeMapModal()">
+      <div class="map-modal-leaflet">
+        <span class="map-modal-close" onclick="closeMapModal()" aria-label="Close map">&times;</span>
+        <div id="leafletMap"></div>
+
+        <!-- Info panel: number → name → drawing → divider → desc → divider → photos -->
+        <div id="mapInfoPanel" class="map-info-panel">
+          <button class="map-info-close" onclick="closeInfoPanel()" aria-label="Close">✕</button>
+          <div class="map-info-number" id="mapInfoNumber"></div>
+          <h3 id="mapInfoTitle"></h3>
+          <img id="mapInfoDrawing" class="map-info-drawing" src="" alt="" />
+          <div class="map-info-divider"></div>
+          <p class="map-info-desc" id="mapInfoDesc"></p>
+          <div class="map-info-divider" id="mapPhotoDivider" style="display:none;"></div>
+          <div id="mapPhotoGrid" class="map-photo-grid"></div>
+          <p class="map-photo-no-imgs" id="mapNoPhotos" style="display:none;">no photos yet</p>
+        </div>
+
+        <div class="map-tap-hint" id="mapTapHint">Tap a marker to explore</div>
+      </div>
+    </div>
+
+    <!-- Photo Lightbox -->
+    <div id="photoLightbox" onclick="if(event.target===this)closeLightbox()">
+      <button class="photo-lb-close" onclick="closeLightbox()">&#x2715;</button>
+      <button class="photo-lb-nav photo-lb-prev" onclick="lbStep(-1)">&#x2039;</button>
+      <img id="photoLbImg" src="" alt="" />
+      <button class="photo-lb-nav photo-lb-next" onclick="lbStep(1)">&#x203A;</button>
+      <div class="photo-lb-counter" id="photoLbCounter"></div>
+    </div>
+
+    <!-- Image Modal (gallery) -->
+    <div id="imageModal" class="modal">
+      <div class="image-modal-content">
+        <img id="modalImage" alt="Selected Gallery Image" style="width: auto;" />
+      </div>
+    </div>
+
+    <!-- Manual Password Modal -->
+    <div id="passwordModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Enter password to access the WMB User Manual</p>
+        <input type="password" id="passwordInput" />
+        <button onclick="checkPassword()">Submit</button>
+      </div>
+    </div>
+
+    <footer style="background-color: transparent; width: 100%;"></footer>
+
+    <script src="../js/scripts.js"></script>
+    <script>
+      // PROTOTYPE: auto-initialize the inline map on load (no modal click required)
+      document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(function () {
+          initMap();
+          if (wmbMap) wmbMap.invalidateSize();
+        }, 100);
+      });
+    </script>
+  </body>
+</html>

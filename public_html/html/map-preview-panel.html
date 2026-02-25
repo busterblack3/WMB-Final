@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WMB Map Preview — Info Panel Open</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #f4f0e8; font-family: 'Courier New', monospace; }
+
+    .preview-label {
+      text-align: center;
+      padding: 12px 20px;
+      font-family: 'Courier New', monospace;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(60,35,20,0.45);
+      background: #f4f0e8;
+      border-bottom: 1px solid rgba(60,35,20,0.10);
+    }
+
+    .section-header {
+      text-align: center;
+      padding: 36px 20px 24px;
+    }
+    .section-logo {
+      height: 64px;
+      width: auto;
+      display: inline-block;
+    }
+
+    .property-inline-map {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: calc(100% - 60px);
+      max-width: 1200px;
+      height: 72vh;
+      min-height: 520px;
+      margin: 0 auto 40px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.22);
+      background: #e8e4d9;
+    }
+
+    #leafletMap {
+      width: 100%;
+      height: 100%;
+      background: #e8e4d9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="preview-label">⬇ Option 2 Prototype — marker tapped, info panel open</div>
+
+  <section id="property">
+    <main>
+      <header class="section-header">
+        <img src="../images/wmb-logo.png" alt="Woods Mill Bend Logo" class="section-logo" />
+      </header>
+
+      <div class="property-inline-map">
+        <div id="leafletMap"></div>
+
+        <!-- Info panel pre-opened with Main House data -->
+        <div id="mapInfoPanel" class="map-info-panel active">
+          <button class="map-info-close" onclick="closeInfoPanel()" aria-label="Close">✕</button>
+          <div class="map-info-number" id="mapInfoNumber">1</div>
+          <h3 id="mapInfoTitle">Main House &amp; Pool</h3>
+          <img id="mapInfoDrawing" class="map-info-drawing" src="../images/property/mainhouse.png" alt="Main House" style="display:block;" />
+          <div class="map-info-divider"></div>
+          <p class="map-info-desc" id="mapInfoDesc">Four bedrooms (five individual beds), two bathrooms, and a pool. The primary residence of Woods Mill Bend and the flagship short-term rental.</p>
+          <div class="map-info-divider" id="mapPhotoDivider"></div>
+          <div id="mapPhotoGrid" class="map-photo-grid">
+            <img src="../images/map/1-main-house/image053.png" alt="Main House 1" loading="lazy" />
+            <img src="../images/map/1-main-house/image10.png" alt="Main House 2" loading="lazy" />
+            <img src="../images/map/1-main-house/image16.png" alt="Main House 3" loading="lazy" />
+            <img src="../images/map/1-main-house/image17.png" alt="Main House 4" loading="lazy" />
+          </div>
+          <p class="map-photo-no-imgs" id="mapNoPhotos" style="display:none;">no photos yet</p>
+        </div>
+
+        <div class="map-tap-hint hidden" id="mapTapHint">Tap a marker to explore</div>
+      </div>
+    </main>
+  </section>
+
+  <!-- Required stubs -->
+  <div id="photoLightbox">
+    <button class="photo-lb-close">&#x2715;</button>
+    <button class="photo-lb-nav photo-lb-prev">&#x2039;</button>
+    <img id="photoLbImg" src="" alt="" />
+    <button class="photo-lb-nav photo-lb-next">&#x203A;</button>
+    <div class="photo-lb-counter" id="photoLbCounter"></div>
+  </div>
+
+  <script>
+    const _origGet = document.getElementById.bind(document);
+    document.getElementById = function(id) {
+      const el = _origGet(id);
+      if (el) return el;
+      if (id === 'mapModal') return { style: { display: 'none' } };
+      if (id === 'stickyHeaderBar') return { classList: { add(){}, remove(){} } };
+      return { style: {}, classList: { add(){}, remove(){} }, innerHTML: '' };
+    };
+  </script>
+
+  <script src="../js/scripts.js"></script>
+
+  <script>
+    setTimeout(function () {
+      initMap();
+      if (typeof wmbMap !== 'undefined' && wmbMap) wmbMap.invalidateSize();
+    }, 150);
+  </script>
+</body>
+</html>
